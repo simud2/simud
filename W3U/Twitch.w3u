@@ -3,13 +3,13 @@
   "author": "Aggiornata 13/09/25",
   "image": "https://img.freepik.com/premium-vector/twitch-logo_578229-259.jpg?semt=ais_incoming&w=740&q=80",
   "info": "Aggiornata 13/09/25",
-  "url": "https://raw.githubusercontent.com/smnfambrea-spec/simud/refs/heads/main/W3U/Twitch.w3u",
+  "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/Twitch.w3u",
   "groups": [
     {
       "name": "Kings League",
       "author": "Simud",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9wACg9MyRmkUA-YgLuw_WwyxNdBYdVaPCIA&s",
-      "url": "https://raw.githubusercontent.com/smnfambrea-spec/simud/refs/heads/main/Twitchkings.m3u8"
+      "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/Twitchkings.m3u8"
     }
   ]
 }
