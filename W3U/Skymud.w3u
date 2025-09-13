@@ -25,13 +25,6 @@
       "image": "https://i.postimg.cc/6QVmW4C9/Chat-GPT-Image-8-giu-2025-17-23-16.png",
       "url": "https://raw.githubusercontent.com/smnfambrea-spec/simud/refs/heads/main/W3U/MPD.w3u",
       "import": true
-    },
-    {
-      "name": "Twitch",
-      "author": "Simud",
-      "image": "https://img.freepik.com/premium-vector/twitch-logo_578229-259.jpg?semt=ais_incoming&w=740&q=80",
-      "url": "https://raw.githubusercontent.com/smnfambrea-spec/simud/refs/heads/main/W3U/Twitch.w3u",
-      "import": true
     }
   ]
 }
