@@ -1,0 +1,82 @@
+{
+  "name": "Canali MPD",
+  "author": "Only Mobile ",
+  "info": "Aggiornata 11/09/25 ",
+  "image": "https://media0.giphy.com/media/Q2uk5XNnlATqumoDF7/200w.gif?cid=6c09b9527ye9agpzw5eroab1islf6rfc1kiweuec63nhb1jc&ep=v1_stickers_search&rid=200w.gif&ct=s",
+  "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/W3U/MPD.w3u",
+  "stations": [
+    {
+      "name": "DAZN MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://www.tivu.tv/_common/images/cover-canali/dazn-1.jpg",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://tvonline.great-site.net",
+      "url": "https://tvonline.great-site.net/channel/dazn1.php",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Eurosport 1 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa02LLWr8M_-Yu6Q6vr_TRHRe6Y-h5vJYj7A&s",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/euro1.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Eurosport 2 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://image.discovery.indazn.com/ca/v2/ca/image?id=s5jssu34hgh31vemb9znxfq2z_image-header_pIt_1661948805000&quality=70",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://hattrick.ws",
+      "url": "https://hattrick.ws/euro2.htm",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "F1 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://i.postimg.cc/ZK123SQB/nuovo-logo-formula-1.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd",
+      "isHost": ""
+    },
+    {
+      "name": "F1 MPD",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://i.postimg.cc/ZK123SQB/nuovo-logo-formula-1.png",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-dash/rsila2hd.mpd",
+      "isHost": ""
+    },
+    {
+      "name": "Risulati Sportivi",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://www.salvatorepumo.it/wp-content/uploads/2023/09/logo-serie-a-oggi.jpg",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://www.rbtvplus04.com",
+      "url": "https://www.rbtvplus04.com/it/football.html",
+      "embed": "true",
+      "isHost": ""
+    },
+    {
+      "name": "Canali 24/7",
+      "info": "Sport",
+      "online": "true",
+      "image": "https://www.salvatorepumo.it/wp-content/uploads/2023/09/logo-serie-a-oggi.jpg",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
+      "referer": "https://ava.karmakurama.com/",
+      "url": "https://ava.karmakurama.com/",
+      "embed": "true",
+      "isHost": ""
+    }
+  ]
+}
