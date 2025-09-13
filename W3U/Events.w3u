@@ -9,7 +9,7 @@
       "name": "Canali ed Eventi SportStreaming",
       "author": "Simud",
       "image": "https://www.salvatorepumo.it/wp-content/uploads/2023/09/logo-serie-a-oggi.jpg",
-      "url": "https://raw.githubusercontent.com/simud/simud/refs/heads/main/sportstreaming_playlist.m3u8",
+      "url": "https://raw.githubusercontent.com/smnfambrea-spec/simud/refs/heads/main/sportstreaming_playlist.m3u8",
       "import": true
     }
   ]
