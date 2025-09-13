@@ -11,6 +11,13 @@
       "image": "https://variety.com/wp-content/uploads/2016/03/sky-tv-logo.jpg?w=1000&h=587&crop=1",
       "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/ava.m3u8",
       "import": true
+    },
+    {
+      "name": "Digitale Terrestre",
+      "author": "Simud",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logo_of_RAI_%282016%29.svg/1200px-Logo_of_RAI_%282016%29.svg.png",
+      "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/digitale.m3u8",
+      "import": true
     }
   ]
 }
