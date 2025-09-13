@@ -2,9 +2,9 @@
 
 🔗 **Link essenziale per far funzionare tutto**: [https://bit.ly/skymudw3u](https://bit.ly/skymudw3u)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/simud/simud?style=social)
-![GitHub forks](https://img.shields.io/github/forks/simud/simud?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/simud/simud)
+![GitHub Repo stars](https://img.shields.io/github/stars/simud2/simud?style=social)
+![GitHub forks](https://img.shields.io/github/forks/simud2/simud?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/simud2/simud)
 ![Status](https://img.shields.io/badge/status-updating-brightgreen)
 
 ---
@@ -67,7 +67,7 @@
 ## 🌟 Pronto a trasformare il tuo dispositivo in un centro di intrattenimento?  
 
 Scarica l’app, inserisci il link e immergiti in un mondo di contenuti senza limiti!  
-📢 **Hai domande o problemi?** Lascia un commento sul nostro [GitHub](https://github.com/simud/simud) o contattaci per supporto!  
+📢 **Hai domande o problemi?** Lascia un commento sul nostro [GitHub](https://github.com/simud2/simud) o contattaci per supporto!  
 
 ---
 
