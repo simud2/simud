@@ -2,7 +2,7 @@
   "name": "Skymud",
   "author": "Simud",
   "image": "https://media0.giphy.com/media/Q2uk5XNnlATqumoDF7/200w.gif?cid=6c09b9527ye9agpzw5eroab1islf6rfc1kiweuec63nhb1jc&ep=v1_stickers_search&rid=200w.gif&ct=s",
-  "info": "Aggiornata 11/09/25 ",
+  "info": "Aggiornata 13/09/25 ",
   "url": "https://raw.githubusercontent.com/smnfambrea-spec/simud/refs/heads/main/W3U/Skymud.w3u",
   "groups": [
     {
@@ -24,6 +24,13 @@
       "author": "Simud",
       "image": "https://i.postimg.cc/6QVmW4C9/Chat-GPT-Image-8-giu-2025-17-23-16.png",
       "url": "https://raw.githubusercontent.com/smnfambrea-spec/simud/refs/heads/main/W3U/MPD.w3u",
+      "import": true
+    },
+    {
+      "name": "Twitch",
+      "author": "Simud",
+      "image": "https://img.freepik.com/premium-vector/twitch-logo_578229-259.jpg?semt=ais_incoming&w=740&q=80",
+      "url": "https://raw.githubusercontent.com/smnfambrea-spec/simud/refs/heads/main/W3U/Twitch.w3u",
       "import": true
     }
   ]
