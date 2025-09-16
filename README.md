@@ -1,6 +1,6 @@
 # 📺 Lista Gruppi Canali IPTV
 
-🔗 **Link essenziale per far funzionare tutto**: [https://bit.ly/skymudw3u](https://bit.ly/skymudw3u)
+🔗 **Link essenziale per far funzionare tutto**: [https://bit.ly/skymud2](https://bit.ly/skymud2)
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/simud2/simud?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/simud2/simud?style=social)
@@ -51,7 +51,7 @@
 
 1. Apri la tua app IPTV preferita.  
 2. Vai su **"Aggiungi playlist"** o **"Inserisci URL"**.  
-3. Incolla il link: [https://bit.ly/skymudw3u](https://bit.ly/skymudw3u).  
+3. Incolla il link: [https://bit.ly/skymud2](https://bit.ly/skymud2).  
 4. Conferma e attendi il caricamento dei canali.  
 5. Seleziona una categoria e inizia a guardare!  
 
