@@ -17,9 +17,6 @@ output_file = "subgoal.m3u8"
 # User-Agent predefinito
 user_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
 
-# URL dell'immagine per tvg-logo
-tvg_logo = "https://resource-m.calcionapoli24.it/www/thumbs/1200x/1671957248_90.jpg"
-
 # Inizializza cloudscraper
 scraper = cloudscraper.create_scraper()
 
@@ -93,14 +90,14 @@ def save_m3u8(stream_data):
         with open(output_file, 'w', encoding='utf-8') as f:
             # Intestazione del file M3U8
             f.write('#EXTM3U\n')
-            # Aggiungi ogni flusso al file con opzioni VLC e tvg-logo
+            # Aggiungi ogni flusso al file con opzioni VLC
             for stream in stream_data:
                 # Estrai il dominio dall'URL del flusso
                 parsed_url = urlparse(stream["url"])
                 domain = f"{parsed_url.scheme}://{parsed_url.netloc}/"
                 
-                # Scrivi le opzioni VLC e tvg-logo
-                f.write(f'#EXTINF:-1 tvg-logo="{tvg_logo}",{stream["title"]}\n')
+                # Scrivi le opzioni VLC
+                f.write(f'#EXTINF:-1,{stream["title"]}\n')
                 f.write(f'#EXTVLCOPT:http-referrer={domain}\n')
                 f.write(f'#EXTVLCOPT:http-origin={domain}\n')
                 f.write(f'#EXTVLCOPT:http-user-agent={user_agent}\n')
