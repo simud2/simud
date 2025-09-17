@@ -6,14 +6,14 @@
   "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/Events.w3u",
   "groups": [
     {
-      "name": "Canali ed Eventi",
+      "name": "Eventi Ita",
       "author": "Simud",
       "image": "https://www.salvatorepumo.it/wp-content/uploads/2023/09/logo-serie-a-oggi.jpg",
       "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/subgoal.m3u8",
       "import": true
     },
     {
-      "name": "Canali ed Eventi",
+      "name": "Eventi Sportivi",
       "author": "Simud",
       "image": "https://www.tuttocalciodilettanti.com/wp-content/uploads/2022/05/Serie-A-e-Serie-B.jpg",
       "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/scheduleava.m3u8",
