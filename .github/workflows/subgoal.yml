@@ -1,4 +1,4 @@
-name: Ava Scraper
+name: Subgoal
 
 on:
   workflow_dispatch:  # Permette di eseguire il workflow manualmente
@@ -32,7 +32,7 @@ jobs:
           # Verifica che Chrome sia installato correttamente
           google-chrome --version
 
-      - name: Run Ava Scraper
+      - name: Run Subgoal
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
