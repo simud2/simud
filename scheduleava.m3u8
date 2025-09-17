@@ -1,59 +1,119 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",World Snooker - Snooker English Open (EuroSport 1 Italy)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=878
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",World Snooker - Snooker English Open (EuroSport 1 Italy)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=878
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Youth League : Juventus U19 vs Borussia Dortmund U19 (Sky Sport Calcio IT)
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Youth League : Juventus U19 vs Borussia Dortmund U19 (Sky Sport Calcio IT)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=870
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : PSV vs Union Saint-Gilloise (Sky Sport Calcio IT)
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : PSV vs Union Saint-Gilloise (Sky Sport Calcio IT)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=870
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Benfica vs Qarabağ (Sky Sport 255 IT)
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Benfica vs Qarabağ (Sky Sport 255 IT)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=18
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Tottenham Hotspur vs Villarreal (Sky Sport 254 IT)
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Tottenham Hotspur vs Villarreal (Sky Sport 254 IT)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=20
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Tottenham Hotspur vs Villarreal (Sky Sport Max IT)
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Tottenham Hotspur vs Villarreal (Sky Sport Max IT)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=460
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Juventus vs Borussia Dortmund (Sky Sport Uno IT)
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Juventus vs Borussia Dortmund (Sky Sport Uno IT)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=461
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Juventus vs Borussia Dortmund (Sky Sport 252 IT)
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Juventus vs Borussia Dortmund (Sky Sport 252 IT)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=23
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Real Madrid vs Olympique Marseille (Sky Sport 253 IT)
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Real Madrid vs Olympique Marseille (Sky Sport 253 IT)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=26
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Real Madrid vs Olympique Marseille (Sky Sport Calcio IT)
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Real Madrid vs Olympique Marseille (Sky Sport Calcio IT)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=870
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Olympiakos Piraeus vs Paphos (Sky Sport Calcio IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=870
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Olympiakos Piraeus vs Paphos (Sky Sport 253 IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=76
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Slavia Praha vs Bodø / Glimt (Sky Sport 254 IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=77
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Slavia Praha vs Bodø / Glimt (Sky Sport Arena IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=462
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",Italy - Serie C : Salernitana vs Atalanta II (Sky Sport 256 IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=21
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : PSG vs Atalanta (Sky Sport Uno IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=461
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : PSG vs Atalanta (Sky Sport 252 IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=155
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Liverpool vs Atlético Madrid (TV8 IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=156
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Liverpool vs Atlético Madrid (Sky Sport 253 IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=76
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Liverpool vs Atlético Madrid (Sky Sport Calcio IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=870
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Bayern München vs Chelsea (Sky Sport Max IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=460
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Calcio Italy",UEFA Champions League : Bayern München vs Chelsea (Sky Sport 254 IT)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=77
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",World Snooker - Snooker English Open (EuroSport 1 Italy)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=878
+#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",World Snooker - Snooker English Open (EuroSport 1 Italy)
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://ava.karmakurama.com/?id=878
 #EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",BJK Cup Finals Quarterfinals ITA v. CHN; Seoul-WTA Early Rounds (Sky Sport Tennis Italy)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
@@ -104,66 +164,6 @@ https://ava.karmakurama.com/?id=878
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 https://ava.karmakurama.com/?id=878
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Olympiakos Piraeus vs Paphos (Sky Sport Calcio IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=870
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Olympiakos Piraeus vs Paphos (Sky Sport 253 IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=76
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Slavia Praha vs Bodø / Glimt (Sky Sport 254 IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=77
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Slavia Praha vs Bodø / Glimt (Sky Sport Arena IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=462
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",Italy - Serie C : Salernitana vs Atalanta II (Sky Sport 256 IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=21
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : PSG vs Atalanta (Sky Sport Uno IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=461
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : PSG vs Atalanta (Sky Sport 252 IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=155
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Liverpool vs Atlético Madrid (TV8 IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=156
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Liverpool vs Atlético Madrid (Sky Sport 253 IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=76
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Liverpool vs Atlético Madrid (Sky Sport Calcio IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=870
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Bayern München vs Chelsea (Sky Sport Max IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=460
-#EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",UEFA Champions League : Bayern München vs Chelsea (Sky Sport 254 IT)
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-https://ava.karmakurama.com/?id=77
 #EXTINF:-1 tvg-logo="https://img.freepik.com/vettori-premium/vettore-del-logo-del-marchio-sportivo-9_666870-2780.jpg?semt=ais_incoming&w=740&q=80" group-title="Sport Italy",BJK Cup Finals Quarterfinals ITA v. CHN; Seoul-WTA Early Rounds (Sky Sport Tennis Italy)
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
