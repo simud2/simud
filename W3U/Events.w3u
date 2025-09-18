@@ -6,6 +6,13 @@
   "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/Events.w3u",
   "groups": [
     {
+      "name": "DAZN IT",
+      "author": "Simud",
+      "image": "https://milanoevents.it/wp-content/uploads/2020/02/logo-dazn.png",
+      "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/DAZN.m3u8",
+      "import": true
+    },
+    {
       "name": "Eventi Sportivi",
       "author": "Simud",
       "image": "https://www.tuttocalciodilettanti.com/wp-content/uploads/2022/05/Serie-A-e-Serie-B.jpg",
