@@ -16,7 +16,7 @@
       "name": "DAZN ITA",
       "author": "Simud",
       "image": "https://milanoevents.it/wp-content/uploads/2020/02/logo-dazn.png",
-      "url": "https://watchit.my/embed/stream-877.php",
+      "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/DAZN.m3u8",
       "import": true
     }
   ]
