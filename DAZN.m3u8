@@ -1,7 +1,0 @@
-#EXTM3U
-
-#EXTINF:-1 tvg-logo="https://milanoevents.it/wp-content/uploads/2020/02/logo-dazn.png", DAZN IT
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://watchit.my/
-#EXTVLCOPT:http-origin=https://watchit.my/
-https://watchit.my/embed/stream-877.php
