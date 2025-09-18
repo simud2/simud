@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://milanoevents.it/wp-content/uploads/2020/02/logo-dazn.png", DAZN IT
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/
+https://ava.karmakurama.com/?id=877
