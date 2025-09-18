@@ -11,13 +11,6 @@
       "image": "https://www.tuttocalciodilettanti.com/wp-content/uploads/2022/05/Serie-A-e-Serie-B.jpg",
       "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/scheduleava.m3u8",
       "import": true
-    },
-    {
-      "name": "DAZN ITA",
-      "author": "Simud",
-      "image": "https://milanoevents.it/wp-content/uploads/2020/02/logo-dazn.png",
-      "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/DAZN.m3u8",
-      "import": true
     }
   ]
 }
