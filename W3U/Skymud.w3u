@@ -25,14 +25,6 @@
       "image": "https://i.postimg.cc/6QVmW4C9/Chat-GPT-Image-8-giu-2025-17-23-16.png",
       "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/MPD.w3u",
       "import": true
-    },
-    {
-      "name": "Film & Serie Mobile",
-      "author": "Simud",
-      "image": "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
-      "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/Film.w3u",
-      "import": true
-    },
-    
+    }
   ]
 }
