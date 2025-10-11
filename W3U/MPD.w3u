@@ -6,17 +6,6 @@
   "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/MPD.w3u",
   "stations": [
     {
-      "name": "DAZN MPD",
-      "info": "Sport",
-      "online": "true",
-      "image": "https://www.tivu.tv/_common/images/cover-canali/dazn-1.jpg",
-      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
-      "referer": "https://tvonline.great-site.net",
-      "url": "https://tvonline.great-site.net/channel/dazn1.php",
-      "embed": "true",
-      "isHost": ""
-    },
-    {
       "name": "Eurosport 1 MPD",
       "info": "Sport",
       "online": "true",
