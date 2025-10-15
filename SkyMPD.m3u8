@@ -153,7 +153,7 @@ https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S
 #EXTINF:-1 tvg-id="eurosport2.it" tvg-chno="211" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sky Sport (MPD)",Eurosport 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115097a6b5a2cc55c2f6e9c65043ed7:2f82bc6a71fad0a0646936c2b0099c73
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S1/Live/channel(eurosport2)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/nowitlin1/Content/CMAF_CTR_S1/Live/channel(eurosport2)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="dazn1.it" tvg-chno="214" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/dazn-1-es.png" group-title="Sky Sport (MPD)",DAZN 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
