@@ -34,7 +34,7 @@
 ## 🛠️ Come iniziare in 3 semplici passi
 
 1. 📥 **Scarica un'app IPTV** compatibile con link M3U (vedi tabella sotto).  
-2. 🔗 **Inserisci il link M3U** [https://bit.ly/skymudw3u](https://bit.ly/skymud2) nell'app.  
+2. 🔗 **Inserisci il link M3U** [https://bit.ly/skymud2](https://bit.ly/skymud2) nell'app.  
 3. 🎉 **Goditi lo streaming** dei tuoi canali preferiti ovunque ti trovi!  
 
 🎯 **App consigliate** per ogni dispositivo (download diretti e sicuri):  
