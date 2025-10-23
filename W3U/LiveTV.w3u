@@ -6,9 +6,16 @@
   "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/LiveTV.w3u",
   "groups": [
     {
-      "name": "Canali Sky",
+      "name": "Sky Full",
       "author": "Simud",
       "image": "https://variety.com/wp-content/uploads/2016/03/sky-tv-logo.jpg?w=1000&h=587&crop=1",
+      "url": "http://rx84734wlrdxc.top:2095/get.php?username=Y3Z40JNcro&password=TPW5V7mqL6&type=m3u_plus",
+      "import": true
+    },
+    {
+      "name": "Canali Sky (Secondari)",
+      "author": "Simud",
+      "image": "https://i.postimg.cc/nzK8CJRz/Chat-GPT-Image-23-ott-2025-12-39-07.png",
       "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/ava.m3u8",
       "import": true
     },
