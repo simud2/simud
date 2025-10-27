@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Dazn MPD",DAZN 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e23a807f81a9:7ab4b9ae5a48aa526e511a913b832769
+https://dcs-ak-livedazn.akamaized.net/dash/dazn-linear-205/stream.mpd?p=web&dazn-token=st%3D1761556250~exp%3D1761642650~acl%3D%2F*~id%3De23a807f81a9~data%3Dcountry%3Dit%23asn%3D12874%23path%3D1s%2C2d%23hashp%3D12db6456c6038b13cde753976f96819e327a59e3944f86aa9191e9cad885044c%23hashua%3D8d3a4310782ed11654708481a971289b2b41320c78fe2ca10c0be5d9c3af9b5b~hmac%3Dd9eeac4af72ccc45bee7e82ff50a056e3ea954c874a99d405438002a327402b8
