@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Dazn MPD",DAZN 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e23a807f81a9:7ab4b9ae5a48aa526e511a913b832769
+https://dcs-ak-livedazn.akamaized.net/dash/dazn-linear-205/stream.mpd
