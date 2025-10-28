@@ -5,7 +5,7 @@ url = "https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/mpd.m3u"
 
 # Ordine gruppi desiderato
 group_order = [
-    "Film- Serie TV",
+    "Film - Serie TV",
     "Sport",
     "Documentari",
     "Bambini",
