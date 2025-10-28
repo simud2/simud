@@ -1,5 +1,113 @@
 #EXTM3U
 
+# ===== Film - Serie TV =====
+#EXTINF:-1 tvg-id="" tvg-logo="https://magtv.altervista.org/wp-content/uploads/2025/09/La7-cinema-320x245.png" group-title="Film - Serie TV",LA7 CINEMA (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0000
+#EXTVLCOPT:decryption_key=0000
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiotvseriea.png" group-title="Film - Serie TV",RADIO TV SERIE A CON RDS (MPD)
+https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_226_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY ATLANTIC (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1115f02862576b34b467ad4c54a09cfc:bac42e800a5c437b606e2af5b291c607
+#EXTVLCOPT:decryption_key=1115f02862576b34b467ad4c54a09cfc:bac42e800a5c437b606e2af5b291c607
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721208_f~0_g~1_s~47908f06-2753-446c-8c30-8795093df151_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~57_x~a65554f50a74072745b4214fe643587c/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyatlantic)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_206_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA ACTION (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11150443883da4df27e25110d10fca31:83b6390471a083e00f8f3aff2a271be9
+#EXTVLCOPT:decryption_key=11150443883da4df27e25110d10fca31:83b6390471a083e00f8f3aff2a271be9
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721218_f~0_g~1_s~bf8cad8a-ef8b-4fcb-a282-17e5debf0a5f_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~61_x~ec36ef3409b7ceddab0d5282cba645c5/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemaaction)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_204_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA COLLECTION (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11155d8a1fe0b211137c206354e16d2a:7f07d0ef693893a84162d51c1c7259f3
+#EXTVLCOPT:decryption_key=11155d8a1fe0b211137c206354e16d2a:7f07d0ef693893a84162d51c1c7259f3
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721212_f~0_g~1_s~37b61e8d-1a18-4998-8e49-639846fec8c6_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~65_x~81af3e2361b87de00584756cf70507e2/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemacollection)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_30_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA COMEDY (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1115676eca79233f2919b53f1a1709b8:72298a31b1b015b52adc03ab222494c2
+#EXTVLCOPT:decryption_key=1115676eca79233f2919b53f1a1709b8:72298a31b1b015b52adc03ab222494c2
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721213_f~0_g~1_s~5a4e1bc1-ff2a-4118-98ca-5955448c01f1_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~61_x~bbf8370db47d1f793a25870abab6877b/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemacomedy)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_769_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA DRAMA (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11155ad807b90b9570fb8cce067f6166:74c4430ed8142190e52d4b303286696f
+#EXTVLCOPT:decryption_key=11155ad807b90b9570fb8cce067f6166:74c4430ed8142190e52d4b303286696f
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721224_f~0_g~1_s~f264d15e-db76-4678-8d7f-7868d4980116_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~60_x~c2a4e30e6f0d71d37b8defa4a337f03c/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemadrama)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_564_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA DUE (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11152c4ea1a3bffdd277ce333e54631a:17f0c028800dbcb294b9aebbae1f7e0c
+#EXTVLCOPT:decryption_key=11152c4ea1a3bffdd277ce333e54631a:17f0c028800dbcb294b9aebbae1f7e0c
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721219_f~0_g~1_s~41aa8434-d787-4bf8-9bf6-28bd06ec24e8_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~58_x~8fdb1544fba6a59b959e75f7a4c12b26/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemadue)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_255_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA FAMILY (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1115074065832f74af7e279e1203adce:20ece4131fbec82ac7ff056838512143
+#EXTVLCOPT:decryption_key=1115074065832f74af7e279e1203adce:20ece4131fbec82ac7ff056838512143
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721222_f~0_g~1_s~361e14ab-41c6-41ef-9742-0fed49347f9f_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~61_x~761c208cb97f15ebbf0d1be831c32161/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemafamily)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_231_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA ROMANCE (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1115dbeea57d2fadedc278956bcbfb02:3eee23f97ae49a81c03356599a614fca
+#EXTVLCOPT:decryption_key=1115dbeea57d2fadedc278956bcbfb02:3eee23f97ae49a81c03356599a614fca
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721226_f~0_g~1_s~cf20086d-3e27-4661-8134-4615394836fa_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~62_x~c03b35e4a9795bbc6dde8e7a592646ab/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemaromance)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_47_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA SUSPENSE (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1115d04562a1c328a84b2dab41244cba:5cf8c65d4177349308d7043384880659
+#EXTVLCOPT:decryption_key=1115d04562a1c328a84b2dab41244cba:5cf8c65d4177349308d7043384880659
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721227_f~0_g~1_s~f2d7e8ab-ce68-4b3e-b0b9-8cd81e2136f0_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~63_x~2ef964374172c4a3f5c3fa0ca54a58cb/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemasuspense)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_202_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA UNO (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=111571675d8183ed169725564cded6d9:e077dedf383c8aed73d38567a8e6a046
+#EXTVLCOPT:decryption_key=111571675d8183ed169725564cded6d9:e077dedf383c8aed73d38567a8e6a046
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721208_f~0_g~1_s~d67da236-92ee-4174-8fa5-8e08cfebd7cc_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~58_x~03cdb8b841c7d51739bf94256a6b2646/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemauno)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_249_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CRIME (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1115aa47cfa18cf73cb6f936cff1f8ee:a27e7383d481596cc34334336d3e7219
+#EXTVLCOPT:decryption_key=1115aa47cfa18cf73cb6f936cff1f8ee:a27e7383d481596cc34334336d3e7219
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721223_f~0_g~1_s~30cfc3be-96b9-437b-b3d8-c55e234e2498_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~54_x~dd9bbe0c7baac332077aed0fbe260984/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycrime)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_684_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY SERIE (MPD)
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1115bf01aeadce32fcec6a220375a3fa:9df360a2a22411897cd8b1bc48c0afc0
+#EXTVLCOPT:decryption_key=1115bf01aeadce32fcec6a220375a3fa:9df360a2a22411897cd8b1bc48c0afc0
+https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721213_f~0_g~1_s~ac4d019e-6168-49d2-8d7e-f09ae9498992_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~54_x~a4fe4663963ba6f975758a0c532cec24/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyserie)/master_2hr-aac.mpd
+
 # ===== Sport =====
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/DAZN_1.svg/512px-DAZN_1.svg.png" group-title="Sport",DAZN 1 (MPD)
 #KODIPROP:inputstream=inputstream.adaptive
@@ -543,113 +651,6 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?h
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/warnertv.png" group-title="Altro",WARNER TV (MPD)
 https://amg16146-wbdi-amg16146c4-samsung-it-1837.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-warnertv-samsungit/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://magtv.altervista.org/wp-content/uploads/2025/09/La7-cinema-320x245.png" group-title="Film - Serie TV",LA7 CINEMA (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0000
-#EXTVLCOPT:decryption_key=0000
-https://viamotionhsi.netplus.ch/live/eds/la7d/browser-dash/la7d.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiotvseriea.png" group-title="Film - Serie TV",RADIO TV SERIE A CON RDS (MPD)
-https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_226_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY ATLANTIC (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115f02862576b34b467ad4c54a09cfc:bac42e800a5c437b606e2af5b291c607
-#EXTVLCOPT:decryption_key=1115f02862576b34b467ad4c54a09cfc:bac42e800a5c437b606e2af5b291c607
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721208_f~0_g~1_s~47908f06-2753-446c-8c30-8795093df151_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~57_x~a65554f50a74072745b4214fe643587c/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyatlantic)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_206_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA ACTION (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11150443883da4df27e25110d10fca31:83b6390471a083e00f8f3aff2a271be9
-#EXTVLCOPT:decryption_key=11150443883da4df27e25110d10fca31:83b6390471a083e00f8f3aff2a271be9
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721218_f~0_g~1_s~bf8cad8a-ef8b-4fcb-a282-17e5debf0a5f_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~61_x~ec36ef3409b7ceddab0d5282cba645c5/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemaaction)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_204_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA COLLECTION (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11155d8a1fe0b211137c206354e16d2a:7f07d0ef693893a84162d51c1c7259f3
-#EXTVLCOPT:decryption_key=11155d8a1fe0b211137c206354e16d2a:7f07d0ef693893a84162d51c1c7259f3
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721212_f~0_g~1_s~37b61e8d-1a18-4998-8e49-639846fec8c6_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~65_x~81af3e2361b87de00584756cf70507e2/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemacollection)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_30_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA COMEDY (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115676eca79233f2919b53f1a1709b8:72298a31b1b015b52adc03ab222494c2
-#EXTVLCOPT:decryption_key=1115676eca79233f2919b53f1a1709b8:72298a31b1b015b52adc03ab222494c2
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721213_f~0_g~1_s~5a4e1bc1-ff2a-4118-98ca-5955448c01f1_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~61_x~bbf8370db47d1f793a25870abab6877b/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemacomedy)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_769_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA DRAMA (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11155ad807b90b9570fb8cce067f6166:74c4430ed8142190e52d4b303286696f
-#EXTVLCOPT:decryption_key=11155ad807b90b9570fb8cce067f6166:74c4430ed8142190e52d4b303286696f
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721224_f~0_g~1_s~f264d15e-db76-4678-8d7f-7868d4980116_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~60_x~c2a4e30e6f0d71d37b8defa4a337f03c/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemadrama)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_564_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA DUE (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11152c4ea1a3bffdd277ce333e54631a:17f0c028800dbcb294b9aebbae1f7e0c
-#EXTVLCOPT:decryption_key=11152c4ea1a3bffdd277ce333e54631a:17f0c028800dbcb294b9aebbae1f7e0c
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721219_f~0_g~1_s~41aa8434-d787-4bf8-9bf6-28bd06ec24e8_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~58_x~8fdb1544fba6a59b959e75f7a4c12b26/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemadue)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_255_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA FAMILY (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115074065832f74af7e279e1203adce:20ece4131fbec82ac7ff056838512143
-#EXTVLCOPT:decryption_key=1115074065832f74af7e279e1203adce:20ece4131fbec82ac7ff056838512143
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721222_f~0_g~1_s~361e14ab-41c6-41ef-9742-0fed49347f9f_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~61_x~761c208cb97f15ebbf0d1be831c32161/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemafamily)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_231_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA ROMANCE (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115dbeea57d2fadedc278956bcbfb02:3eee23f97ae49a81c03356599a614fca
-#EXTVLCOPT:decryption_key=1115dbeea57d2fadedc278956bcbfb02:3eee23f97ae49a81c03356599a614fca
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721226_f~0_g~1_s~cf20086d-3e27-4661-8134-4615394836fa_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~62_x~c03b35e4a9795bbc6dde8e7a592646ab/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemaromance)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_47_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA SUSPENSE (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115d04562a1c328a84b2dab41244cba:5cf8c65d4177349308d7043384880659
-#EXTVLCOPT:decryption_key=1115d04562a1c328a84b2dab41244cba:5cf8c65d4177349308d7043384880659
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721227_f~0_g~1_s~f2d7e8ab-ce68-4b3e-b0b9-8cd81e2136f0_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~63_x~2ef964374172c4a3f5c3fa0ca54a58cb/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemasuspense)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_202_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CINEMA UNO (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111571675d8183ed169725564cded6d9:e077dedf383c8aed73d38567a8e6a046
-#EXTVLCOPT:decryption_key=111571675d8183ed169725564cded6d9:e077dedf383c8aed73d38567a8e6a046
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721208_f~0_g~1_s~d67da236-92ee-4174-8fa5-8e08cfebd7cc_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~58_x~03cdb8b841c7d51739bf94256a6b2646/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemauno)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_249_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY CRIME (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115aa47cfa18cf73cb6f936cff1f8ee:a27e7383d481596cc34334336d3e7219
-#EXTVLCOPT:decryption_key=1115aa47cfa18cf73cb6f936cff1f8ee:a27e7383d481596cc34334336d3e7219
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721223_f~0_g~1_s~30cfc3be-96b9-437b-b3d8-c55e234e2498_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~54_x~dd9bbe0c7baac332077aed0fbe260984/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycrime)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://pixel.disco.nowtv.it/logo/skychb_684_lightnow/LOGO_CHANNEL_DARK/4000?language=it-IT&proposition=NOWOTT" group-title="Film - Serie TV",SKY SERIE (MPD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115bf01aeadce32fcec6a220375a3fa:9df360a2a22411897cd8b1bc48c0afc0
-#EXTVLCOPT:decryption_key=1115bf01aeadce32fcec6a220375a3fa:9df360a2a22411897cd8b1bc48c0afc0
-https://g006-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1761721213_f~0_g~1_s~ac4d019e-6168-49d2-8d7e-f09ae9498992_u~a7b120b192ab0efeb5361552fcf3bdb6f764419c4a230644b3986c4eca442618d2c28c214e4186502bbb29a48cfc7c3f_k~A_l~54_x~a4fe4663963ba6f975758a0c532cec24/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyserie)/master_2hr-aac.mpd
 
 # ===== Rai =====
 #EXTINF:-1 tvg-id="" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/rai1.png" group-title="Rai",RAI 1 (GEO-BLOCKED) (MPD)
