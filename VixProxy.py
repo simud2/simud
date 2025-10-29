@@ -22,7 +22,7 @@ class TMDBM3UGenerator:
         self.vixsrc_api = "https://vixsrc.to/api/list/movie/?lang=it"
 
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        self.output_dir = os.path.dirname(script_dir)
+        self.output_dir = script_dir
         self.output_filename = "VixFilm.m3u8"
         self.cache_file = os.path.join(script_dir, "film_cache.json")
 
