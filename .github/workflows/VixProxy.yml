@@ -1,55 +1,44 @@
 name: Vix Scraper
 
 on:
-  workflow_dispatch:  # Permette esecuzione manuale
+  workflow_dispatch:
   schedule:
-    - cron: "0 0,8,16 * * *"  # Esegue ogni 8 ore (00:00, 08:00, 16:00 UTC)
+    - cron: "0 0,8,16 * * *"
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Clona il repository
-      - name: Checkout repository with token
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Usa il token integrato di GitHub
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2️⃣ Setup Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"  # Usa una versione recente e stabile
+          python-version: "3.11"
 
-      # 3️⃣ Installa le dipendenze
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests python-dotenv
 
-      # 4️⃣ Esegui lo script principale
-      - name: Run Vix Scraper
-        env:
-          GITHUB_WORKSPACE: ${{ github.workspace }}
+      - name: Run VixProxy script
         run: |
-          python VixFlim.py  # <-- assicurati che il nome del file sia questo
+          python VixProxy.py
 
-      # 5️⃣ Commit & Push automatico (solo se ci sono cambiamenti)
-      - name: Commit and push updated playlist
+      - name: Commit and push updated files
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "actions@github.com"
-
-          # Aggiunge i file generati se esistono
           if [ -f VixFlim.m3u8 ]; then git add VixFlim.m3u8; fi
           if [ -f film_cache.json ]; then git add film_cache.json; fi
-
-          # Commit solo se ci sono modifiche
           if ! git diff --cached --quiet; then
-            git commit -m "🔄 Aggiornamento automatico VixFlim.m3u8 ($(date '+%Y-%m-%d %H:%M'))"
+            git commit -m "🔄 Auto-update playlist $(date '+%Y-%m-%d %H:%M')"
             git push origin main
           else
-            echo "✅ Nessun cambiamento da committare"
+            echo "✅ No changes to commit"
           fi
         continue-on-error: false
