@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
 """
-TMDB M3U Playlist Generator
-Fetches movies from TMDB API and creates an M3U playlist with vixsrc.to links
+TMDB M3U Playlist Generator - Versione completa con categorie
 """
 
 import os
 import requests
-from datetime import datetime
 from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 
-# Load environment variables
+# Carica variabili ambiente
 load_dotenv()
 
 class TMDBM3UGenerator:
     def __init__(self):
-        self.api_key = "eff30813a2950a33e36b51ff09c71f97"
+        self.api_key = os.getenv("TMDB_API_KEY", "eff30813a2950a33e36b51ff09c71f97")
         self.base_url = "https://api.themoviedb.org/3"
         self.vixsrc_base = "https://vixsrc.to/movie"
         self.vixsrc_api = "https://vixsrc.to/api/list/movie/?lang=it"
@@ -30,7 +28,7 @@ class TMDBM3UGenerator:
         self.vixsrc_movies = self._load_vixsrc_movies()
 
     # -------------------------
-    # Cache Management
+    # Cache
     # -------------------------
     def _load_cache(self):
         if os.path.exists(self.cache_file):
@@ -38,31 +36,31 @@ class TMDBM3UGenerator:
                 with open(self.cache_file, "r", encoding="utf-8") as f:
                     return json.load(f)
             except Exception as e:
-                print(f"Error loading cache: {e}")
+                print(f"Errore nel caricamento cache: {e}")
         return {}
 
     def _save_cache(self):
         try:
             with open(self.cache_file, "w", encoding="utf-8") as f:
                 json.dump(self.cache, f, ensure_ascii=False, indent=2)
-            print(f"Cache saved ({len(self.cache)} movies)")
+            print(f"Cache salvata ({len(self.cache)} film)")
         except Exception as e:
-            print(f"Error saving cache: {e}")
+            print(f"Errore salvataggio cache: {e}")
 
     # -------------------------
-    # Load Vixsrc list
+    # vixsrc.to
     # -------------------------
     def _load_vixsrc_movies(self):
         try:
-            print("Loading vixsrc.to movie list...")
+            print("Carico lista film da vixsrc.to...")
             res = requests.get(self.vixsrc_api, timeout=10)
             res.raise_for_status()
             data = res.json()
             ids = {str(i["tmdb_id"]) for i in data if i.get("tmdb_id")}
-            print(f"Loaded {len(ids)} available movies from vixsrc.to")
+            print(f"Caricati {len(ids)} film disponibili da vixsrc.to")
             return ids
         except Exception as e:
-            print(f"Warning: Could not load vixsrc list: {e}")
+            print(f"Attenzione: impossibile caricare lista vixsrc: {e}")
             return set()
 
     def _is_movie_available_on_vixsrc(self, tmdb_id):
@@ -88,23 +86,24 @@ class TMDBM3UGenerator:
             return {
                 "id": m["id"],
                 "title": m["title"],
+                "overview": m.get("overview", ""),
                 "release_date": m.get("release_date", ""),
                 "vote_average": m.get("vote_average", 0),
+                "popularity": m.get("popularity", 0),
                 "poster_path": m.get("poster_path", ""),
-                "genre_ids": [g["id"] for g in m.get("genres", [])],
+                "genres": [g["name"] for g in m.get("genres", [])],
             }
         except Exception as e:
-            print(f"Error fetching {tmdb_id}: {e}")
+            print(f"Errore nel fetch di {tmdb_id}: {e}")
             return None
 
     # -------------------------
-    # Load Movies
+    # Caricamento Film
     # -------------------------
     def _get_movies_from_vixsrc_list(self):
-        """Fetch movie details for all available Vixsrc movies, using cache"""
         movies = []
         total = len(self.vixsrc_movies)
-        print(f"Fetching details for {total} movies (cache supported)...")
+        print(f"Recupero dettagli per {total} film (cache attiva)...")
 
         to_fetch = []
         for tid in self.vixsrc_movies:
@@ -113,7 +112,7 @@ class TMDBM3UGenerator:
             else:
                 to_fetch.append(tid)
 
-        print(f"{len(movies)} from cache, {len(to_fetch)} to fetch")
+        print(f"{len(movies)} da cache, {len(to_fetch)} da scaricare")
 
         with ThreadPoolExecutor(max_workers=20) as ex:
             futures = {ex.submit(self._fetch_movie_details, tid): tid for tid in to_fetch}
@@ -123,15 +122,15 @@ class TMDBM3UGenerator:
                     movies.append(m)
                     self.cache[str(m["id"])] = m
                 if i % 100 == 0:
-                    print(f"  Progress: {i}/{len(to_fetch)}")
+                    print(f"  Progresso: {i}/{len(to_fetch)}")
 
-        print(f"Loaded {len(movies)} movies total")
+        print(f"Totale film caricati: {len(movies)}")
         return movies
 
     # -------------------------
-    # Playlist Creation
+    # Playlist
     # -------------------------
-    def _write_movie_entry(self, f, movie, genres, group):
+    def _write_movie_entry(self, f, movie, group):
         if not self._is_movie_available_on_vixsrc(movie["id"]):
             return False
         title = movie["title"]
@@ -148,22 +147,68 @@ class TMDBM3UGenerator:
         f.write(f"https://proxy.stremio.dpdns.org/manifest.m3u8?url={url}\n\n")
         return True
 
-    def _organize_and_write_movies(self, f, movies, genres):
-        f.write("# Tutti i Film\n")
-        for m in movies:
-            self._write_movie_entry(f, m, genres, "Tutti")
+    def _filter_cinepanettoni(self, movies):
+        keywords = [
+            "Natale", "Vacanze di Natale", "Boldi", "De Sica", "Salce",
+            "Fantozzi", "Panettone", "Cortina", "Capodanno"
+        ]
+        return [
+            m for m in movies
+            if any(k.lower() in (m["title"] + " " + m.get("overview", "")).lower() for k in keywords)
+        ]
 
-    def create_complete_playlist(self):
-        print("Creating complete M3U playlist from vixsrc.to movies...")
-        genres = self.get_movie_genres()
+    def _filter_category(self, movies, include_genres=None, min_popularity=0, min_year=None):
+        result = []
+        for m in movies:
+            if min_popularity and m.get("popularity", 0) < min_popularity:
+                continue
+            if min_year:
+                year = m.get("release_date", "")[:4]
+                if year and int(year) < min_year:
+                    continue
+            if include_genres and not any(g in include_genres for g in m.get("genres", [])):
+                continue
+            result.append(m)
+        return result
+
+    def create_categorized_playlist(self):
+        print("Creazione playlist M3U per categorie...")
         movies = self._get_movies_from_vixsrc_list()
+
+        cinepanettoni = self._filter_cinepanettoni(movies)
+        animazione = self._filter_category(movies, include_genres=["Animazione"])
+        azione = self._filter_category(movies, include_genres=["Azione", "Avventura"])
+        commedia = self._filter_category(movies, include_genres=["Commedia", "Romantico", "Dramma"])
+        fantascienza = self._filter_category(movies, include_genres=["Fantascienza", "Fantasy"])
+        horror = self._filter_category(movies, include_genres=["Horror", "Thriller"])
+        popolari = self._filter_category(movies, min_popularity=50, min_year=2020)
+
         path = os.path.join(self.output_dir, self.output_filename)
         with open(path, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
-            f.write(f"#PLAYLIST:VixFlim ({len(movies)} Film)\n\n")
-            self._organize_and_write_movies(f, movies, genres)
+            f.write(f"#PLAYLIST:VixFilm Categorizzata ({len(movies)} Film)\n\n")
+
+            sezioni = [
+                ("Cinepanettoni 🎄", cinepanettoni),
+                ("Nuovi / Popolari 🎬", popolari),
+                ("Animazione 🧙‍♂️", animazione),
+                ("Azione / Avventura 💥", azione),
+                ("Commedia / Dramma 💘", commedia),
+                ("Fantascienza / Fantasy 👽", fantascienza),
+                ("Horror / Thriller 😱", horror),
+                ("Tutti i Film", movies),
+            ]
+
+            for nome, lista in sezioni:
+                if not lista:
+                    continue
+                f.write(f"# ===== {nome} =====\n")
+                for m in lista:
+                    self._write_movie_entry(f, m, nome)
+                f.write("\n")
+
         self._save_cache()
-        print(f"\n✅ Playlist generated successfully: {path}")
+        print(f"\n✅ Playlist generata con successo: {path}")
 
 # -------------------------
 # MAIN
@@ -171,14 +216,12 @@ class TMDBM3UGenerator:
 def main():
     try:
         g = TMDBM3UGenerator()
-        print("TMDB M3U Playlist Generator")
+        print("TMDB M3U Playlist Generator con tutte le categorie")
         print("=" * 40)
-        g.create_complete_playlist()
+        g.create_categorized_playlist()
     except Exception as e:
-        print(f"Error: {e}")
-        print("\nMake sure to set your TMDB_API_KEY environment variable:")
-        print("1. Get your API key from https://www.themoviedb.org/settings/api")
-        print("2. Create a .env file with: TMDB_API_KEY=your_api_key_here")
+        print(f"Errore: {e}")
+        print("\nAssicurati di avere il TMDB_API_KEY impostato nel file .env")
 
 if __name__ == "__main__":
     main()
