@@ -26,5 +26,12 @@
       "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/MPD.w3u",
       "import": true
     }
+    {
+      "name": "Film Vix",
+      "author": "Simud",
+      "image": "https://images.ctfassets.net/4cd45et68cgf/4nBnsuPq03diC5eHXnQYx/d48a4664cdc48b6065b0be2d0c7bc388/Netflix-Logo.jpg",
+      "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/Film.w3u",
+      "import": true
+    }ì
   ]
 }
