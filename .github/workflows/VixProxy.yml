@@ -3,7 +3,7 @@ name: Vix Scraper
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # Esegue ogni 24 ore (00:00 UTC)
 
 jobs:
   scrape:
@@ -13,7 +13,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.ACTIONS_TOKEN }}
+          token: ${{ secrets.ACTIONS_TOKEN }}  # O ACTIONS_TOKEN se usi PAT
+          fetch-depth: 0  # 🔑 Serve per poter fare git pull
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -25,20 +26,31 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests python-dotenv
 
-      - name: Run VixProxy script
+      - name: Run VixProxy
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
           python VixProxy.py
 
-      - name: Commit and push updated files
+      - name: Commit and push updated playlist
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "actions@github.com"
+
+          # Aggiunge i file generati se esistono
           if [ -f VixFlim.m3u8 ]; then git add VixFlim.m3u8; fi
           if [ -f film_cache.json ]; then git add film_cache.json; fi
+
+          # Se ci sono modifiche, committa e sincronizza
           if ! git diff --cached --quiet; then
-            git commit -m "🔄 Auto-update playlist $(date '+%Y-%m-%d %H:%M')"
+            git commit -m "🔄 Aggiornamento automatico playlist ($(date '+%Y-%m-%d %H:%M'))"
+
+            # 🔥 Importante: sincronizza prima di pushare
+            git pull --rebase origin main
+
+            # Poi fai il push
             git push origin main
           else
-            echo "✅ No changes to commit"
+            echo "✅ Nessun cambiamento da committare"
           fi
         continue-on-error: false
