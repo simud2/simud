@@ -3,17 +3,12 @@
   "author": "Aggiornata 13/09/25",
   "image": "https://cdn.tomshw.it/storage/wp/new-images/2020/10/prime-video-dark-121372.jpg",
   "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/Film.w3u",
-  "stations": [
+  "group": [
     {
-      "name": "SimudFlix",
-      "info": "Film e serie streaming",
-      "online": "true",
-      "image": "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456",
-      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Mobile/15E148 Safari/605.1.15/Clipbox+/2.2.8",
-      "referer": "https://kastromugnaio.github.io/",
-      "url": "https://kastromugnaio.github.io/VixFlix/",
-      "embed": "true",
-      "isHost": ""
-    }
-  ]
+      "name": "Sky Full",
+      "author": "Simud",
+      "image": "https://i.postimg.cc/g0t37Tr4/Gemini-Generated-Image-srr3fesrr3fesrr3-removebg-preview.png",
+      "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/VixFilm.m3u8",
+      "import": true
+    },
 }
