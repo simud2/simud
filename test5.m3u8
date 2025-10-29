@@ -1,0 +1,24 @@
+#EXTM3U
+#PLAYLIST:Film VixSrc (10432 Film)
+
+# Al Cinema
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/upVmsb1J5UNX8CEY3HXGGjm67hY.jpg" group-title="Film - Al Cinema",A House of Dynamite (2025)
+https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vixsrc.to/movie/1290159/?lang=it
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/rzaoVpOs4Pu73XPSuPqkIFJhU1f.jpg" group-title="Film - Al Cinema",Weapons (2025)
+https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vixsrc.to/movie/1078605/?lang=it
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/69FC9DA5vuIiVsxdTmXAxj7v9O5.jpg" group-title="Film - Al Cinema",The Twits ()
+https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vixsrc.to/movie/927254/?lang=it
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/98n5HnCJ5LnXKIMNP9SBfVNyxCE.jpg" group-title="Film - Al Cinema",I Roses (2025)
+https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vixsrc.to/movie/1267905/?lang=it
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/ovZ0zq0NwRghtWI1oLaM0lWuoEw.jpg" group-title="Film - Al Cinema",Play Dirty (2025)
+https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vixsrc.to/movie/941109/?lang=it
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1Q7pVGjJG4ATzqtZfGKHQptODg6.jpg" group-title="Film - Al Cinema",Una battaglia dopo l’altra (2025)
+https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vixsrc.to/movie/1054867/?lang=it
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/4ZBlrPo87I24ZoE2nffryNuqWct.jpg" group-title="Film - Al Cinema",The Conjuring - Il rito finale (2025)
+https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vixsrc.to/movie/1038392/?lang=it
