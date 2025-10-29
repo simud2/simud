@@ -3,6 +3,7 @@
   "author": "Aggiornata 29/10/25",
   "image": "https://cdn.tomshw.it/storage/wp/new-images/2020/10/prime-video-dark-121372.jpg",
   "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/W3U/Film.w3u",
+  "info": "Aggiornata 29/10/25",
   "groups": [
     {
       "name": "Film Vix",
@@ -11,4 +12,5 @@
       "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/VixFilm.m3u8",
       "import": true
     }
+  ]
 }
