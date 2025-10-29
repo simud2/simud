@@ -1,3 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Dazn MPD",DAZN 1
-https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vixsrc.to/movie/324857/?lang=it
