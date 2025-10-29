@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-TMDB M3U Playlist Generator - Versione completa con categorie
+TMDB M3U Playlist Generator - Versione corretta con tutte le categorie funzionanti
 """
 
 import os
@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 
-# Carica variabili ambiente
 load_dotenv()
 
 class TMDBM3UGenerator:
@@ -69,18 +68,11 @@ class TMDBM3UGenerator:
     # -------------------------
     # TMDB API
     # -------------------------
-    def get_movie_genres(self):
-        url = f"{self.base_url}/genre/movie/list"
-        params = {"api_key": self.api_key, "language": "it-IT"}
-        r = requests.get(url, params=params)
-        r.raise_for_status()
-        return {g["id"]: g["name"] for g in r.json()["genres"]}
-
     def _fetch_movie_details(self, tmdb_id):
         url = f"{self.base_url}/movie/{tmdb_id}"
         params = {"api_key": self.api_key, "language": "it-IT"}
         try:
-            r = requests.get(url, params=params, timeout=5)
+            r = requests.get(url, params=params, timeout=6)
             r.raise_for_status()
             m = r.json()
             return {
@@ -91,7 +83,7 @@ class TMDBM3UGenerator:
                 "vote_average": m.get("vote_average", 0),
                 "popularity": m.get("popularity", 0),
                 "poster_path": m.get("poster_path", ""),
-                "genres": [g["name"] for g in m.get("genres", [])],
+                "genres": [g.get("name", "").lower() for g in m.get("genres", [])],
             }
         except Exception as e:
             print(f"Errore nel fetch di {tmdb_id}: {e}")
@@ -128,11 +120,40 @@ class TMDBM3UGenerator:
         return movies
 
     # -------------------------
+    # Filtri
+    # -------------------------
+    def _filter_cinepanettoni(self, movies):
+        keywords = [
+            "Natale", "Vacanze di Natale", "Boldi", "De Sica", "Salce",
+            "Fantozzi", "Panettone", "Cortina", "Capodanno"
+        ]
+        return [
+            m for m in movies
+            if any(k.lower() in (m["title"] + " " + m.get("overview", "")).lower() for k in keywords)
+        ]
+
+    def _filter_category(self, movies, keywords=None, min_popularity=0, min_year=None):
+        result = []
+        for m in movies:
+            if min_popularity and m.get("popularity", 0) < min_popularity:
+                continue
+            if min_year:
+                year = m.get("release_date", "")[:4]
+                if year and year.isdigit() and int(year) < min_year:
+                    continue
+            if keywords and not any(
+                kw.lower() in " ".join(m.get("genres", [])).lower() for kw in keywords
+            ):
+                continue
+            result.append(m)
+        return result
+
+    # -------------------------
     # Playlist
     # -------------------------
     def _write_movie_entry(self, f, movie, group):
         if not self._is_movie_available_on_vixsrc(movie["id"]):
-            return False
+            return
         title = movie["title"]
         year = movie.get("release_date", "")[:4]
         logo = (
@@ -145,59 +166,35 @@ class TMDBM3UGenerator:
             f'#EXTINF:-1 tvg-logo="{logo}" group-title="Film - {group}",{title} ({year})\n'
         )
         f.write(f"https://proxy.stremio.dpdns.org/manifest.m3u8?url={url}\n\n")
-        return True
-
-    def _filter_cinepanettoni(self, movies):
-        keywords = [
-            "Natale", "Vacanze di Natale", "Boldi", "De Sica", "Salce",
-            "Fantozzi", "Panettone", "Cortina", "Capodanno"
-        ]
-        return [
-            m for m in movies
-            if any(k.lower() in (m["title"] + " " + m.get("overview", "")).lower() for k in keywords)
-        ]
-
-    def _filter_category(self, movies, include_genres=None, min_popularity=0, min_year=None):
-        result = []
-        for m in movies:
-            if min_popularity and m.get("popularity", 0) < min_popularity:
-                continue
-            if min_year:
-                year = m.get("release_date", "")[:4]
-                if year and int(year) < min_year:
-                    continue
-            if include_genres and not any(g in include_genres for g in m.get("genres", [])):
-                continue
-            result.append(m)
-        return result
 
     def create_categorized_playlist(self):
         print("Creazione playlist M3U per categorie...")
         movies = self._get_movies_from_vixsrc_list()
 
+        # --- categorie principali ---
         cinepanettoni = self._filter_cinepanettoni(movies)
-        animazione = self._filter_category(movies, include_genres=["Animazione"])
-        azione = self._filter_category(movies, include_genres=["Azione", "Avventura"])
-        commedia = self._filter_category(movies, include_genres=["Commedia", "Romantico", "Dramma"])
-        fantascienza = self._filter_category(movies, include_genres=["Fantascienza", "Fantasy"])
-        horror = self._filter_category(movies, include_genres=["Horror", "Thriller"])
         popolari = self._filter_category(movies, min_popularity=50, min_year=2020)
+        animazione = self._filter_category(movies, keywords=["animation", "animazione"])
+        azione = self._filter_category(movies, keywords=["action", "avventura", "adventure"])
+        commedia = self._filter_category(movies, keywords=["comedy", "romance", "drama", "commedia", "dramma"])
+        fantascienza = self._filter_category(movies, keywords=["science fiction", "fantascienza", "fantasy"])
+        horror = self._filter_category(movies, keywords=["horror", "thriller"])
+
+        sezioni = [
+            ("Cinepanettoni 🎄", cinepanettoni),
+            ("Nuovi / Popolari 🎬", popolari),
+            ("Animazione 🧙‍♂️", animazione),
+            ("Azione / Avventura 💥", azione),
+            ("Commedia / Dramma 💘", commedia),
+            ("Fantascienza / Fantasy 👽", fantascienza),
+            ("Horror / Thriller 😱", horror),
+            ("Tutti i Film 🎥", movies),
+        ]
 
         path = os.path.join(self.output_dir, self.output_filename)
         with open(path, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
             f.write(f"#PLAYLIST:VixFilm Categorizzata ({len(movies)} Film)\n\n")
-
-            sezioni = [
-                ("Cinepanettoni 🎄", cinepanettoni),
-                ("Nuovi / Popolari 🎬", popolari),
-                ("Animazione 🧙‍♂️", animazione),
-                ("Azione / Avventura 💥", azione),
-                ("Commedia / Dramma 💘", commedia),
-                ("Fantascienza / Fantasy 👽", fantascienza),
-                ("Horror / Thriller 😱", horror),
-                ("Tutti i Film", movies),
-            ]
 
             for nome, lista in sezioni:
                 if not lista:
@@ -216,7 +213,7 @@ class TMDBM3UGenerator:
 def main():
     try:
         g = TMDBM3UGenerator()
-        print("TMDB M3U Playlist Generator con tutte le categorie")
+        print("TMDB M3U Playlist Generator con tutte le categorie funzionanti")
         print("=" * 40)
         g.create_categorized_playlist()
     except Exception as e:
