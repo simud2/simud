@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-TMDB M3U Playlist Generator - versione con categorie reali da TMDB e Cinepanettoni
+TMDB M3U Playlist Generator - versione completa con categorie reali e proxy Stremio
 """
 
 import os
@@ -19,6 +19,7 @@ class TMDBM3UGenerator:
         self.base_url = "https://api.themoviedb.org/3"
         self.vixsrc_base = "https://vixsrc.to/movie"
         self.vixsrc_api = "https://vixsrc.to/api/list/movie/?lang=it"
+        self.proxy_prefix = "https://proxy.stremio.dpdns.org/manifest.m3u8?url="
 
         script_dir = os.path.dirname(os.path.abspath(__file__))
         self.output_dir = script_dir
@@ -44,6 +45,7 @@ class TMDBM3UGenerator:
         try:
             with open(self.cache_file, "w", encoding="utf-8") as f:
                 json.dump(self.cache, f, ensure_ascii=False, indent=2)
+            print(f"Cache salvata ({len(self.cache)} film)")
         except Exception as e:
             print("Errore salvataggio cache:", e)
 
@@ -151,9 +153,11 @@ class TMDBM3UGenerator:
         title = m["title"]
         year = m.get("release_date", "")[:4]
         logo = f"https://image.tmdb.org/t/p/w500{m['poster_path']}" if m.get("poster_path") else ""
-        url = f"{self.vixsrc_base}/{m['id']}/?lang=it"
+        base_url = f"{self.vixsrc_base}/{m['id']}/?lang=it"
+        # 🔹 Aggiungiamo il proxy davanti
+        proxy_url = f"{self.proxy_prefix}{base_url}"
         f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="Film - {group}",{title} ({year})\n')
-        f.write(f"{url}\n\n")
+        f.write(f"{proxy_url}\n\n")
 
     # -------------------------
     # Main creation
@@ -215,7 +219,7 @@ class TMDBM3UGenerator:
 def main():
     try:
         g = TMDBM3UGenerator()
-        print("TMDB M3U Playlist Generator con categorie reali")
+        print("TMDB M3U Playlist Generator con proxy Stremio e categorie reali")
         print("=" * 40)
         g.create_playlist()
     except Exception as e:
