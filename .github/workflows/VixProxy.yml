@@ -38,7 +38,7 @@ jobs:
           git config --global user.email "actions@github.com"
 
           # Aggiunge i file generati se esistono
-          if [ -f VixFlim.m3u8 ]; then git add VixFlim.m3u8; fi
+          if [ -f VixFilm.m3u8 ]; then git add VixFlim.m3u8; fi
           if [ -f film_cache.json ]; then git add film_cache.json; fi
 
           # Se ci sono modifiche, committa e sincronizza
