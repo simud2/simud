@@ -23,7 +23,7 @@ class TMDBM3UGenerator:
 
         script_dir = os.path.dirname(os.path.abspath(__file__))
         self.output_dir = os.path.dirname(script_dir)
-        self.output_filename = "VixFlim.m3u8"
+        self.output_filename = "VixFilm.m3u8"
         self.cache_file = os.path.join(script_dir, "film_cache.json")
 
         self.cache = self._load_cache()
