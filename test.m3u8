@@ -1,8 +1,13 @@
 #EXTM3U x-tvg-url="http://www.epgitalia.tv/gzip,http://epg.vuplus-community.net/rytecIT_SportMovies.xz"
 
-
 #EXTINF:-1 player-buffer="15" tvg-id="SkyUno.it" tvg-name="Sky Uno" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sky_Uno_-_Logo_2021.svg/512px-Sky_Uno_-_Logo_2021.svg.png" group-title="SKY",Sky Uno
-https://ava.karmakurama.com/wind/premium881/mono.m3u8|Mozilla/5.0 (Linux; Android 15; 23124RA7EO Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/139.0.7258.160 Mobile Safari/537.36|Referer=https://ava.karmakurama.com/premium.php
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/premium.php
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/premium.php
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; 23124RA7EO Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/139.0.7258.160 Mobile Safari/537.36
+https://ava.karmakurama.com/wind/premium881/mono.m3u8
 
 #EXTINF:-1 player-buffer="15" tvg-id="Sky Cinema Uno" tvg-name="Sky Cinema Uno" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sky_Cinema_Uno_-_Logo_2021.svg/512px-Sky_Cinema_Uno_-_Logo_2021.svg.png" group-title="SKY",Sky Cinema Uno
-https://ava.karmakurama.com/wind/premium860/mono.m3u8|Mozilla/5.0 (Linux; Android 15; 23124RA7EO Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/139.0.7258.160 Mobile Safari/537.36|Referer=https://ava.karmakurama.com/premium.php
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/premium.php
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com/premium.php
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; 23124RA7EO Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/139.0.7258.160 Mobile Safari/537.36
+https://ava.karmakurama.com/wind/premium860/mono.m3u8
