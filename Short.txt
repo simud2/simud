@@ -1,7 +1,7 @@
 Liste Premium Skymud
-Film Vix                          https://bit.ly/simudvix
-Serie Vix                         https://bit.ly/simudvixs
-Skymud Wiseplay                   https://bit.ly/skymud2
-DAZN Eventi                       https://bit.ly/daznmpd
-Sky MPD                           https://bit.ly/mpdsky
-Ava Iptv                          https://bit.ly/simudiptv
+Film Vix      (Ott/Wiseplay)      https://bit.ly/simudvix
+Serie Vix     (Ott/Wiseplay)      https://bit.ly/simudvixs
+Skymud        (Wiseplay)          https://bit.ly/skymud2
+DAZN Eventi   (Ott)               https://bit.ly/daznmpd
+Sky MPD       (Ott)               https://bit.ly/mpdsky
+Ava Iptv      (Ott/Wiseplay)      https://bit.ly/simudiptv
