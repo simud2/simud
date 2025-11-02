@@ -3,7 +3,7 @@ name: ThisNot Scraper
 on:
   workflow_dispatch:  # Permette di eseguire il workflow manualmente
   schedule:
-    - cron: '0 */8 * * *'  # Esegue ogni 8 ore (es. 00:00, 08:00, 16:00 UTC)
+    - cron: '0 */5 * * *'  # Esegue ogni 8 ore (es. 00:00, 08:00, 16:00 UTC)
 
 jobs:
   scrape:
@@ -29,7 +29,7 @@ jobs:
         env:
           GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
-          python Thisnot.py
+          python ThisNot.py
 
       - name: Commit and push updated M3U8 file
         run: |
