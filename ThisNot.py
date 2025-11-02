@@ -6,9 +6,6 @@ from urllib.parse import urljoin
 import base64
 import json
 
-# =============================
-# CONFIGURAZIONE
-# =============================
 print("Inizializzazione del client cloudscraper...")
 scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
 
@@ -22,10 +19,6 @@ COMPETITIONS = {
     "PremierLeague": f"{BASE_URL}/premierleague.php",
     "ChampionsLeague": f"{BASE_URL}/championsleague.php",
 }
-
-# =============================
-# FUNZIONI DI SUPPORTO
-# =============================
 
 def perform_login(url, pwd):
     print(f"\n🔑 Tentativo di login su {url}")
@@ -64,16 +57,13 @@ def get_page_content(url):
 
 
 def decode_token(token_raw):
-    """Gestisce token base64 e JSON base64, correggendo il padding automaticamente."""
+    """Corregge il padding e decodifica token base64 o JSON base64."""
     try:
-        # Corregge automaticamente il padding (aggiunge "=" fino a multiplo di 4)
         missing_padding = len(token_raw) % 4
         if missing_padding:
             token_raw += "=" * (4 - missing_padding)
-
         decoded_bytes = base64.b64decode(token_raw)
         decoded_str = decoded_bytes.decode('utf-8')
-
         if ':' in decoded_str:
             keyid, key = decoded_str.split(':', 1)
         elif decoded_str.strip().startswith('{'):
@@ -82,7 +72,6 @@ def decode_token(token_raw):
         else:
             print(f"⚠️ Formato token sconosciuto: {decoded_str}")
             return None, None
-
         return keyid.lower(), key.lower()
     except Exception as e:
         print(f"❌ Errore decodifica token '{token_raw}': {e}")
@@ -98,8 +87,6 @@ def process_competition(name, url):
 
     soup = BeautifulSoup(html_content, 'html.parser')
     m3u8_content = "#EXTM3U\n"
-
-    # Trova gruppi "data"
     data_sections = soup.find_all('div', class_='data')
     if not data_sections:
         print(f"Nessuna sezione 'data' trovata per {name}, cerco 'match-row' diretti...")
@@ -110,24 +97,18 @@ def process_competition(name, url):
             return
 
     total_matches = 0
-
     for data_section in data_sections:
         group_title = data_section.text.strip().upper() if data_section else name
         group_title = group_title.title()
         print(f"\n📅 Gruppo: {group_title}")
 
-        match_rows = (
-            data_section.find_next_siblings('div', class_='match-row')
-            if data_section else soup.find_all('div', class_='match-row')
-        )
-
+        match_rows = data_section.find_next_siblings('div', class_='match-row') if data_section else soup.find_all('div', class_='match-row')
         for i, match_row in enumerate(match_rows):
             try:
                 home_div = match_row.find('div', class_='home team')
                 away_div = match_row.find('div', class_='away team')
                 if not home_div or not away_div:
                     continue
-
                 home_team = home_div.find('span').text.strip() if home_div.find('span') else "Sconosciuta"
                 away_team = away_div.find('span').text.strip() if away_div.find('span') else "Sconosciuta"
                 channel_name = f"{home_team} VS {away_team}"
@@ -145,22 +126,21 @@ def process_competition(name, url):
                 if not iframe_match:
                     continue
                 iframe_src = iframe_match.group(1)
-
                 if iframe_src.startswith("chrome-extension://") and "#https://" in iframe_src:
                     iframe_src = iframe_src.split("#", 1)[1]
-
                 if 'nochannel.php' in iframe_src:
                     print(f"⚠️ Nessun canale disponibile per {channel_name}")
                     continue
 
-                # Estrae MPD e token
-                mpd_url_match = re.search(r'https?://[^#"]+?\.mpd', iframe_src)
+                mpd_url_match = re.search(r'(https?://[^\s"\'#]+\.mpd(?:/[^?\s"\'#]*)*)', iframe_src)
                 token_match = re.search(r'ck=([A-Za-z0-9+/=_-]+)', iframe_src)
                 if not mpd_url_match or not token_match:
                     print(f"❌ MPD o token mancanti per {channel_name}")
+                    print(f"DEBUG iframe_src: {iframe_src}")
                     continue
 
-                mpd_url = mpd_url_match.group(0)
+                mpd_url = mpd_url_match.group(1)
+                mpd_url = mpd_url.split('?')[0].split('#')[0]
                 token_raw = token_match.group(1)
                 keyid, key = decode_token(token_raw)
                 if not keyid or not key:
@@ -173,10 +153,9 @@ def process_competition(name, url):
                 total_matches += 1
 
             except Exception as e:
-                print(f"Errore partita {i+1}: {e}")
+                print(f"Errore nella partita {i+1}: {e}")
                 continue
 
-    # Salva M3U8 nella stessa cartella
     if total_matches > 0:
         file_path = os.path.join(os.getcwd(), f"{name}_ThisNot.m3u8")
         try:
@@ -188,10 +167,6 @@ def process_competition(name, url):
     else:
         print(f"⚠️ Nessuna partita valida trovata per {name}")
 
-
-# =============================
-# ESECUZIONE PRINCIPALE
-# =============================
 
 if not perform_login(f"{BASE_URL}/serieA.php", PASSWORD):
     print("FATAL: Login fallito. Interrompo.")
