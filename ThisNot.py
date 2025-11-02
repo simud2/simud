@@ -6,6 +6,9 @@ from urllib.parse import urljoin
 import base64
 import json
 
+# =============================
+# CONFIGURAZIONE
+# =============================
 print("Inizializzazione del client cloudscraper...")
 scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'mobile': False})
 
@@ -13,12 +16,16 @@ BASE_URL = "https://thisnot.business"
 PASSWORD = "2025"
 
 COMPETITIONS = {
-    "SerieA": f"{BASE_URL}/serieA.php",
+    "Serie A": f"{BASE_URL}/serieA.php",
     "Bundesliga": f"{BASE_URL}/bundesliga.php",
     "LaLiga": f"{BASE_URL}/laliga.php",
-    "PremierLeague": f"{BASE_URL}/premierleague.php",
-    "ChampionsLeague": f"{BASE_URL}/championsleague.php",
+    "Premier League": f"{BASE_URL}/premierleague.php",
+    "Champions League": f"{BASE_URL}/championsleague.php",
 }
+
+# =============================
+# FUNZIONI DI SUPPORTO
+# =============================
 
 def perform_login(url, pwd):
     print(f"\n🔑 Tentativo di login su {url}")
@@ -64,6 +71,7 @@ def decode_token(token_raw):
             token_raw += "=" * (4 - missing_padding)
         decoded_bytes = base64.b64decode(token_raw)
         decoded_str = decoded_bytes.decode('utf-8')
+
         if ':' in decoded_str:
             keyid, key = decoded_str.split(':', 1)
         elif decoded_str.strip().startswith('{'):
@@ -87,6 +95,7 @@ def process_competition(name, url):
 
     soup = BeautifulSoup(html_content, 'html.parser')
     m3u8_content = "#EXTM3U\n"
+
     data_sections = soup.find_all('div', class_='data')
     if not data_sections:
         print(f"Nessuna sezione 'data' trovata per {name}, cerco 'match-row' diretti...")
@@ -97,12 +106,10 @@ def process_competition(name, url):
             return
 
     total_matches = 0
-    for data_section in data_sections:
-        group_title = data_section.text.strip().upper() if data_section else name
-        group_title = group_title.title()
-        print(f"\n📅 Gruppo: {group_title}")
 
+    for data_section in data_sections:
         match_rows = data_section.find_next_siblings('div', class_='match-row') if data_section else soup.find_all('div', class_='match-row')
+
         for i, match_row in enumerate(match_rows):
             try:
                 home_div = match_row.find('div', class_='home team')
@@ -132,11 +139,11 @@ def process_competition(name, url):
                     print(f"⚠️ Nessun canale disponibile per {channel_name}")
                     continue
 
+                # Regex migliorata per catturare l’intero MPD anche con /Manifest.mpd
                 mpd_url_match = re.search(r'(https?://[^\s"\'#]+\.mpd(?:/[^?\s"\'#]*)*)', iframe_src)
                 token_match = re.search(r'ck=([A-Za-z0-9+/=_-]+)', iframe_src)
                 if not mpd_url_match or not token_match:
                     print(f"❌ MPD o token mancanti per {channel_name}")
-                    print(f"DEBUG iframe_src: {iframe_src}")
                     continue
 
                 mpd_url = mpd_url_match.group(1)
@@ -146,18 +153,19 @@ def process_competition(name, url):
                 if not keyid or not key:
                     continue
 
-                m3u8_content += f'#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="{group_title}",{channel_name}\n'
+                # Usa il nome della competizione come group-title
+                m3u8_content += f'#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="{name}",{channel_name}\n'
                 m3u8_content += '#KODIPROP:inputstream.adaptive.license_type=clearkey\n'
                 m3u8_content += f'#KODIPROP:inputstream.adaptive.license_key={keyid}:{key}\n'
                 m3u8_content += f'{mpd_url}\n\n'
                 total_matches += 1
 
             except Exception as e:
-                print(f"Errore nella partita {i+1}: {e}")
+                print(f"Errore partita {i+1}: {e}")
                 continue
 
     if total_matches > 0:
-        file_path = os.path.join(os.getcwd(), f"{name}_ThisNot.m3u8")
+        file_path = os.path.join(os.getcwd(), f"{name.replace(' ', '')}_ThisNot.m3u8")
         try:
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(m3u8_content)
@@ -167,6 +175,10 @@ def process_competition(name, url):
     else:
         print(f"⚠️ Nessuna partita valida trovata per {name}")
 
+
+# =============================
+# ESECUZIONE PRINCIPALE
+# =============================
 
 if not perform_login(f"{BASE_URL}/serieA.php", PASSWORD):
     print("FATAL: Login fallito. Interrompo.")
