@@ -2,12 +2,12 @@
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Sabato 1 Novembre",UDINESE VS ATALANTA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"0d28edf4f055409bb12d6d0260b26b6b":"bf69f8a33c39c31f5ff06ab52012e27c"}
-https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$152/index.mpd
+https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$152/index.mpd/Manifest.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Sabato 1 Novembre",NAPOLI VS COMO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d319aab02a8342248cceb0fdf060bc54:b36668a836b15055be1f04b8d8a8cc70
-https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$566/index.mpd
+https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$566/index.mpd/Manifest.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Sabato 1 Novembre",CREMONESE VS JUVENTUS
 #KODIPROP:inputstream.adaptive.license_type=clearkey

@@ -22,7 +22,7 @@ https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/dash/enc/k0duzgfejg/out/v1/70
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Venerdi 31 Ottobre",REAL MADRID VS VALENCIA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3805cd533c1341a7934d13629eb7a34e:2542564928cb8e3fe4595ab8dcfd6e77
-https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$522/index.mpd
+https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$522/index.mpd/Manifest.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Venerdi 31 Ottobre",LEVANTE VS CELTA VIGO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -67,7 +67,7 @@ https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/dash/enc/k0duzgfejg/out/v1/70
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Sabato 1 Novembre",REAL MADRID VS VALENCIA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3805cd533c1341a7934d13629eb7a34e:2542564928cb8e3fe4595ab8dcfd6e77
-https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$522/index.mpd
+https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$522/index.mpd/Manifest.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Sabato 1 Novembre",LEVANTE VS CELTA VIGO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
