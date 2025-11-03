@@ -3,7 +3,7 @@ Film Vix           (Ott/Wiseplay)        https://bit.ly/simudvix
 Serie Vix          (Ott/Wiseplay)        https://bit.ly/simudvixs
 Skymud             (Wiseplay)            https://bit.ly/skymud2
 DAZN Eventi        (Ott)                 https://bit.ly/daznmpd
-Sky MPD            (Ott)                 https://bit.ly/mpdsky
+Sky MPD            (Ott/Non Funzionante) https://bit.ly/mpdsky
 Ava Iptv           (Ott/Wiseplay)        https://bit.ly/simudiptv
 Serie A MPD        (Ott Multilingua)     https://bit.ly/simudseriea
 Bundesliga MPD     (Ott Multilingua)     https://bit.ly/simudbundesliga
