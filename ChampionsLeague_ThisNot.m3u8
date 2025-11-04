@@ -1,18 +1,23 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",NAPOLI VS EINTRACHT FRANKFURT
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",NAPOLI VS EINTRACHT FRANKFURT
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"9f51f3dc6313ac8bc668e2d9d1c04dfa":"74bc63e5a193454a91ca494975db33f9"}
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",SLAVIA PRAGA VS ARSENAL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"d0f2e5c39e70c18f29bf77768a1ad89a":"d6853c51fcf37a18905f0609972395d7"}
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",ATLETICO MADRID VS ROYALE UNION SG
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
+#KODIPROP:inputstream.adaptive.license_key=1a0ffa532aa2498490826e2f6a37f7c9:a8cec27bc7d47909c5b0d8f473b43e8d
+https://mag01.tvx.prd.tv.odido.nl/wh7f454c46tw1024019879_757686866/PLTV/86/224/3221241521/3221241521.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",BODO/GLIMT VS MONACO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -21,28 +26,28 @@ https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1b
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",JUVENTUS VS SPORTING LISBONA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",LIVERPOOL VS REAL MADRID
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
+#KODIPROP:inputstream.adaptive.license_key=39bcbc9418aa4d62b96b6a3eae2f6df0:a8f968b6a8ed7bfb17bf787b6c930c7e
+https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$521/index.mpd/Manifest.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",OLYMPIAKOS VS PSV EINDHOVEN
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
+#KODIPROP:inputstream.adaptive.license_key=ef34ae91b4f2415e8439b2ad105e7488:243248d8de1ff8c7c587ee2057317523
+https://mag03.tvx.prd.tv.odido.nl/wh7f454c46tw75168188_-627298088/PLTV/86/224/3221241590/3221241590.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",PARIS SAINT GERMAIN VS BAYERN MONACO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"9f51f3dc6313ac8bc668e2d9d1c04dfa":"74bc63e5a193454a91ca494975db33f9"}
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",TOTTENHAM VS FC COPENHAGEN
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
+#KODIPROP:inputstream.adaptive.license_key={"d0f2e5c39e70c18f29bf77768a1ad89a":"d6853c51fcf37a18905f0609972395d7"}
+https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",PAFOS VS VILLARREAL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -60,11 +65,6 @@ https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1b
 https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",BENFICA VS BAYER LEVERKUSEN
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
-
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",CLUB BRUGGE VS BARCELLONA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
 https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
@@ -105,11 +105,6 @@ https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1b
 https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",BENFICA VS BAYER LEVERKUSEN
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
-https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
-
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",CLUB BRUGGE VS BARCELLONA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b98b7e0f2806332ab627c0177e5708f6:62240705d69fbf3b6850bfdfab2a787a,770cf796cbf53210a7d7c414ddceeb9a:903dea32932e10161034e0fdb8b2fba8
 https://origin-18cd60dea8190528-rtlhu.live.6cloud.fr/out/v1/0c5c7fb388c649f78a1be36fc4bd365e/dash_long_cenc10_ucl1_hd_index.mpd
