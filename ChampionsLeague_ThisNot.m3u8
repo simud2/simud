@@ -69,6 +69,11 @@ https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$112/index.mpd/Manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=7224f2a6a14a4d88874d10dd953c88dc:9719ea238d3de66eb073ce842814f464
 https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$523/index.mpd/Manifest.mpd
 
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",INTER VS KAIRAT ALMATY
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"98776d9689190a7a5bade0669b9f33cd":"1da8c429187267d548bb2f61075d828b"}
+https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/imjj8g0rp2/out/v1/5c8988b5f85945ec81acde883ead4581/cenc.mpd
+
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",NEWCASTLE VS ATHLETIC BILBAO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"9f51f3dc6313ac8bc668e2d9d1c04dfa":"74bc63e5a193454a91ca494975db33f9"}
@@ -98,6 +103,11 @@ https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$112/index.mpd/Manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7224f2a6a14a4d88874d10dd953c88dc:9719ea238d3de66eb073ce842814f464
 https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$523/index.mpd/Manifest.mpd
+
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",INTER VS KAIRAT ALMATY
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"98776d9689190a7a5bade0669b9f33cd":"1da8c429187267d548bb2f61075d828b"}
+https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/imjj8g0rp2/out/v1/5c8988b5f85945ec81acde883ead4581/cenc.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Champions League",NEWCASTLE VS ATHLETIC BILBAO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
