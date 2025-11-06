@@ -10,4 +10,4 @@ https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/pl
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; 23124RA7EO Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/139.0.7258.160 Mobile Safari/537.36
-https://ava.karmakurama.com/wind/premium860/mono.m3u8
+https://proxy.stremio.dpdns.org/manifest.m3u8?url=https://vavoo.to/vavoo-iptv/play/78546677680f40b76841
