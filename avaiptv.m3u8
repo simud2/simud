@@ -1,10 +1,4 @@
-#EXTM3U x-tvg-url="http://www.epgitalia.tv/gzip,http://epg.vuplus-community.net/rytecIT_SportMovies.xz"
 #EXTM3U
-#EXTM3U  url-tvg="http://www.epgitalia.tv/gzip,http://epg-guide.com/it.gz,https://raw.github.com/matthuisman/i.mjh.nz/master/PlutoTV/us.xml.gz,https://github.com/matthuisman/i.mjh.nz/raw/master/PlutoTV/it.xml.gz,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-events-epg.xml,https://raw.githubusercontent.com/pigzillaaaaa/iptv-scraper/refs/heads/main/epgs/daddylive-channels-epg.xml,https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/it.xml.gz"
-#EXTINF:-1 tvg-id="rai 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png" group-title="Rai",Rai 1
-https://viamotionhsi.netplus.ch/live/eds/rai1/browser-dash/rai1.mpd
-#EXTINF:-1 tvg-id="rai 1" tvg-name="Rai 1 " tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png" group-title="Rai",Rai 1 FHD
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/premium.php
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com/premium.php
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 15; 23124RA7EO Build/AQ3A.240829.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/139.0.7258.160 Mobile Safari/537.36
 https://ava.karmakurama.com/wind/premium850/mono.m3u8
