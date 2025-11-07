@@ -1,66 +1,66 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",TOTTENHAM VS MANCHESTER UNITED
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"3501bd323a6a35c28eb7654bf298b9aa":"2db4c8089d627e1b2c480c57baa86a7b"}
-https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd
+#KODIPROP:inputstream.adaptive.license_key=39bcbc9418aa4d62b96b6a3eae2f6df0:a8f968b6a8ed7bfb17bf787b6c930c7e
+https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$521/index.mpd/Manifest.mpd
+
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",EVERTON VS FULHAM
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
+https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
+
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",WEST HAM VS BURNLEY
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7224f2a6a14a4d88874d10dd953c88dc:9719ea238d3de66eb073ce842814f464
+https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$523/index.mpd/Manifest.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",SUNDERLAND VS ARSENAL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=002204653dd0205760285305703b1e32:45c2bb3749af2a3e86423084e2bd3b6f
-https://g003-sle-us-cmaf-prd-cf.cdn.peacocktv.com/co01/Content/CMAF_CTR-4s-v2/Live/channel(2506461-207874-24794badd42)/master_2hr.mpd
+#KODIPROP:inputstream.adaptive.license_key={"0045a118e231f1326bcdb45350b1ceaa":"8c13afbfa54ea37a368b8b859021f6e3"}
+https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(knbc)/master.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",CHELSEA VS WOLVERHAMPTON
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"3501bd323a6a35c28eb7654bf298b9aa":"2db4c8089d627e1b2c480c57baa86a7b"}
-https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd
+#KODIPROP:inputstream.adaptive.license_key={"0045a118e231f1326bcdb45350b1ceaa":"8c13afbfa54ea37a368b8b859021f6e3"}
+https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(knbc)/master.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",ASTON VILLA VS BOURNEMOUTH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
 https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
 
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",BRENTFORD VS NEWCASTLE
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
-https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
-
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",CRYSTAL PALACE VS BRIGHTON
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
-https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
-
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",NOTTINGHAM FOREST VS LEEDS
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
-https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
-
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",MANCHESTER CITY VS LIVERPOOL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=39bcbc9418aa4d62b96b6a3eae2f6df0:a8f968b6a8ed7bfb17bf787b6c930c7e
 https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$521/index.mpd/Manifest.mpd
+
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",NOTTINGHAM FOREST VS LEEDS
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b6e5fe5b1d140b092e22cc662088276:6bdd76adbc5bb25089983b2500dde7ca
+https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$524/index.mpd/Manifest.mpd
+
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",MANCHESTER CITY VS LIVERPOOL
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
+https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
 
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",ASTON VILLA VS BOURNEMOUTH
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
 https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
 
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",BRENTFORD VS NEWCASTLE
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
-https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
-
 #EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",CRYSTAL PALACE VS BRIGHTON
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
-https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
-
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",NOTTINGHAM FOREST VS LEEDS
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
-https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
-
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",MANCHESTER CITY VS LIVERPOOL
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=39bcbc9418aa4d62b96b6a3eae2f6df0:a8f968b6a8ed7bfb17bf787b6c930c7e
 https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$521/index.mpd/Manifest.mpd
+
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",NOTTINGHAM FOREST VS LEEDS
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b6e5fe5b1d140b092e22cc662088276:6bdd76adbc5bb25089983b2500dde7ca
+https://rr.cdn.vodafone.pt/LIVE/sdash/LIVE$524/index.mpd/Manifest.mpd
+
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyE-K-43FZ_16IFb9aUbFKSHYpAVmEC-jhw&s" group-title="Premier League",MANCHESTER CITY VS LIVERPOOL
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"043ba1b4a2823fc4a6033178f3560431":"684358d80874b55f9335c73126e4d44e"}
+https://akam.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s-v2/Live/channel(usa-east)/master.mpd
 
