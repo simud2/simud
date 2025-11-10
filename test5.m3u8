@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",El Salvador U17 x Germany U17 14:3
+#EXTVLCOPT:http-referrer=https://planetary.lovecdn.ru
+#EXTVLCOPT:http-origin=https://planetary.lovecdn.ru
+https://planetary.lovecdn.ru/SkySportCalcioIT/tracks-v1/index.fmp4.m3u8?token=6d79e8349517674aa7ad2202d3d19bc3794f7fd4-e440f6f06eabf4292f00b734404d809f-1762807354-1762796554
