@@ -1,4 +1,4 @@
-name:Simud Scraper Highlights
+name: Simud Scraper Highlights
 
 on:
   workflow_dispatch:  # Permette di eseguire il workflow manualmente
