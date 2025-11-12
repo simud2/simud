@@ -1,8 +1,9 @@
 Liste Premium Skymud
+SimudHighlights      (Ott/Wiseplay)                          https://bit.ly/simudlights
 Film Vix             (Ott/Wiseplay)                          https://bit.ly/simudvix
 Serie Vix            (Ott/Wiseplay)                          https://bit.ly/simudvixs
 Skymud               (Wiseplay)                              https://bit.ly/skymud2
-SkyVegeta            (Ott/Wiseplay)                          https://bit.ly/simudvegeta
+SkyVegeta            (Ott/Wiseplay/Non Funzionante)          https://bit.ly/simudvegeta
 DAZN Eventi          (Ott)                                   https://bit.ly/daznmpd
 Sky MPD              (Ott/Non Funzionante)                   https://bit.ly/mpdsky
 Ava Iptv             (Ott/Wiseplay/Non Funzionante)          https://bit.ly/simudiptv
