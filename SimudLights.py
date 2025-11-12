@@ -3,13 +3,14 @@ import re
 import sys
 import unicodedata
 from pathlib import Path
+from typing import Optional  # ✅ aggiunto
 import yt_dlp
 
 # ====== CONFIGURAZIONE ======
 CHANNEL_URL = "https://www.youtube.com/@skysport/videos"
-MAX_VIDEOS = 30  # quanti video recenti controllare
+MAX_VIDEOS = 30
 DESKTOP = Path.home() / "Desktop"
-HIGHLIGHTS_DIR = Path("Highlights")  # cartella locale principale (solo "Highlights")
+HIGHLIGHTS_DIR = Path("Highlights")
 M3U8_PATH = DESKTOP / "SimudLights.m3u8"
 
 GITHUB_BASE_URL = "https://github.com/simud2/simud/blob/main/Highlights"
@@ -17,7 +18,6 @@ LOGO_URL = "https://www.chefstudio.it/img/blog/logo-serie-a/logo-serie-a.jpg"
 
 
 def check_yt_dlp_version():
-    """Mostra la versione corrente di yt-dlp"""
     try:
         print(f"yt-dlp versione: {yt_dlp.__version__}  (aggiorna con: yt-dlp -U)\n")
     except Exception:
@@ -25,10 +25,6 @@ def check_yt_dlp_version():
 
 
 def make_filename(title: str) -> str:
-    """
-    Crea un nome file 'attaccato' (niente spazi o simboli).
-    Esempio: 'Juventus - Lazio | Highlights' -> 'juventuslaziohighlights.mp4'
-    """
     nfkd = unicodedata.normalize("NFKD", title)
     ascii_str = nfkd.encode("ascii", "ignore").decode("ascii")
     lower = ascii_str.lower()
@@ -38,7 +34,6 @@ def make_filename(title: str) -> str:
 
 
 def get_recent_videos():
-    """Recupera gli ultimi video del canale."""
     ydl_opts = {
         "quiet": True,
         "extract_flat": True,
@@ -51,11 +46,10 @@ def get_recent_videos():
 
 
 def is_highlights(title: str) -> bool:
-    """Ritorna True se il titolo contiene 'Highlights'."""
     return "highlights" in (title or "").lower()
 
 
-def download_video(title: str, url: str, out_dir: Path) -> str | None:
+def download_video(title: str, url: str, out_dir: Path) -> Optional[str]:
     """Scarica il video nella cartella Highlights e restituisce il percorso locale."""
     out_dir.mkdir(parents=True, exist_ok=True)
     filename = make_filename(title)
@@ -84,8 +78,7 @@ def download_video(title: str, url: str, out_dir: Path) -> str | None:
         return None
 
 
-def write_m3u8(entries: list[tuple[str, str]], m3u8_path: Path):
-    """Crea la playlist SimudLights.m3u8."""
+def write_m3u8(entries, m3u8_path: Path):
     with open(m3u8_path, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
         for title, local_path in entries:
