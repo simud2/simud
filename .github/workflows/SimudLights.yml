@@ -23,6 +23,10 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -U yt-dlp
+          
+      - name: Scarica coockies.txt
+        run: |
+          curl -L -o coockies.txt https://raw.githubusercontent.com/simud2/simud/refs/heads/main/coockies.txt
 
       - name: Run Simud Scraper Highlights
         env:
