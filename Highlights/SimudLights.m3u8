@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="simud1" tvg-name="Eurolega, Virtus Bologna-Anadolu Efes 99-89: gli highlights" tvg-logo="https://www.chefstudio.it/img/blog/logo-serie-a/logo-serie-a.jpg" group-title="Highlights" catchup="default" tvg-shift="0", Eurolega, Virtus Bologna-Anadolu Efes 99-89: gli highlights
+https://raw.githubusercontent.com/simud2/simud/refs/heads/main/Highlights/Eurolega.mp4
+#EXTINF:-1 tvg-id="simud2" tvg-name="Inter-Lazio 2-0: gol e highlights | Serie A" tvg-logo="https://www.chefstudio.it/img/blog/logo-serie-a/logo-serie-a.jpg" group-title="Highlights" catchup="default" tvg-shift="0", Inter-Lazio 2-0: gol e highlights | Serie A
+https://raw.githubusercontent.com/simud2/simud/refs/heads/main/Highlights/Inter.mp4
+#EXTINF:-1 tvg-id="simud3" tvg-name="Roma-Udinese 2-0: gol e highlights | Serie A" tvg-logo="https://www.chefstudio.it/img/blog/logo-serie-a/logo-serie-a.jpg" group-title="Highlights" catchup="default" tvg-shift="0", Roma-Udinese 2-0: gol e highlights | Serie A
+https://raw.githubusercontent.com/simud2/simud/refs/heads/main/Highlights/Roma.mp4
