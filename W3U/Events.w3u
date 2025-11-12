@@ -18,6 +18,13 @@
       "image": "https://www.tuttocalciodilettanti.com/wp-content/uploads/2022/05/Serie-A-e-Serie-B.jpg",
       "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/scheduleava.m3u8",
       "import": true
+    },
+    {
+      "name": "HighLights",
+      "author": "Simud",
+      "image": "https://resource-m.calcionapoli24.it/www/thumbs/1200x/1671957248_90.jpg",
+      "url": "https://raw.githubusercontent.com/simud2/simud/refs/heads/main/Highlights/SimudLights.m3u8",
+      "import": true
     }
   ]
 }
