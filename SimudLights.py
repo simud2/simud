@@ -1,39 +1,36 @@
 import os
-import re
 import sys
-import unicodedata
+import re
 from pathlib import Path
-from typing import Optional  # ✅ aggiunto
-import yt_dlp
 
-# ====== CONFIGURAZIONE ======
+# ✅ Percorso forzato per yt_dlp (installazione Microsoft Store)
+YT_DLP_PATH = r"C:\Users\cambr\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages"
+if YT_DLP_PATH not in sys.path:
+    sys.path.insert(0, YT_DLP_PATH)
+
+try:
+    import yt_dlp
+    print("✅ Modulo yt_dlp importato correttamente.\n")
+except ImportError:
+    print("❌ yt-dlp non trovato.")
+    sys.exit(1)
+
+# === CONFIG ===
 CHANNEL_URL = "https://www.youtube.com/@skysport/videos"
-MAX_VIDEOS = 30
-DESKTOP = Path.home() / "Desktop"
-HIGHLIGHTS_DIR = Path("Highlights")
-M3U8_PATH = DESKTOP / "SimudLights.m3u8"
-
-GITHUB_BASE_URL = "https://github.com/simud2/simud/blob/main/Highlights"
+M3U8_PATH = os.path.join(Path.home(), "Desktop", "SimudLights_HLS.m3u8")
+MAX_VIDEOS = 50
 LOGO_URL = "https://www.chefstudio.it/img/blog/logo-serie-a/logo-serie-a.jpg"
 
-
-def check_yt_dlp_version():
-    try:
-        print(f"yt-dlp versione: {yt_dlp.__version__}  (aggiorna con: yt-dlp -U)\n")
-    except Exception:
-        pass
-
-
-def make_filename(title: str) -> str:
-    nfkd = unicodedata.normalize("NFKD", title)
-    ascii_str = nfkd.encode("ascii", "ignore").decode("ascii")
-    lower = ascii_str.lower()
-    only_alnum = re.sub(r"[^a-z0-9]+", "", lower)
-    trimmed = only_alnum[:80] if only_alnum else "video"
-    return f"{trimmed}.mp4"
+TEAMS = [
+    "Atalanta", "Bologna", "Cagliari", "Como", "Cremonese",
+    "Fiorentina", "Genoa", "Hellas Verona", "Inter", "Juventus",
+    "Lazio", "Lecce", "Milan", "Napoli", "Parma", "Pisa",
+    "Roma", "Sassuolo", "Torino", "Udinese"
+]
 
 
-def get_recent_videos():
+def get_videos():
+    """Estrae gli ultimi video dal canale YouTube"""
     ydl_opts = {
         "quiet": True,
         "extract_flat": True,
@@ -41,82 +38,93 @@ def get_recent_videos():
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(CHANNEL_URL, download=False)
-        entries = info.get("entries", [])
-        return [(e.get("title", ""), e.get("url")) for e in entries if e.get("url")]
+        return [
+            (entry["title"], entry["url"])
+            for entry in info.get("entries", [])
+            if entry.get("url")
+        ]
 
 
-def is_highlights(title: str) -> bool:
-    return "highlights" in (title or "").lower()
-
-
-def download_video(title: str, url: str, out_dir: Path) -> Optional[str]:
-    """Scarica il video nella cartella Highlights e restituisce il percorso locale."""
-    out_dir.mkdir(parents=True, exist_ok=True)
-    filename = make_filename(title)
-    output_path = out_dir / filename
-
-    if output_path.exists():
-        print(f"⚠️  Il file '{filename}' esiste già, salto il download.")
-        return str(output_path)
-
-    ydl_opts = {
-        "outtmpl": str(output_path),
-        "format": "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4",
-        "merge_output_format": "mp4",
-        "extractor_args": {"youtube": {"player_client": ["android"]}},
-        "quiet": False,
-        "noplaylist": True,
-    }
-
+def get_hls_url(url):
+    """Estrae il link HLS (manifesto .m3u8) da un video YouTube"""
     try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            ydl.download([url])
-        print(f"✅ Scaricato: {title} -> {filename}")
-        return str(output_path)
+        opts = {
+            "quiet": True,
+            "skip_download": True,
+            "format": "best[protocol^=m3u8]",
+            "noplaylist": True,
+        }
+        with yt_dlp.YoutubeDL(opts) as ydl:
+            info = ydl.extract_info(url, download=False)
+            if "url" in info and "m3u8" in info["url"]:
+                return info["url"]
+
+            # Cerca nei formati alternativi
+            for f in info.get("formats", []):
+                if "m3u8" in (f.get("url") or ""):
+                    return f["url"]
+
     except Exception as e:
-        print(f"❌ Errore nel download di '{title}': {e}")
-        return None
+        print(f"⚠️ Errore durante l'estrazione HLS: {e}")
+
+    return None
 
 
-def write_m3u8(entries, m3u8_path: Path):
-    with open(m3u8_path, "w", encoding="utf-8") as f:
+def clean_title(title):
+    """Rimuove solo | e : dai titoli, mantiene i trattini e normalizza gli spazi"""
+    title = title.replace("|", " ").replace(":", " ")
+    title = re.sub(r'\s+', ' ', title)  # rimuove spazi doppi
+    return title.strip()
+
+
+def create_m3u8(entries):
+    """Crea la playlist M3U8"""
+    with open(M3U8_PATH, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
-        for title, local_path in entries:
-            filename = os.path.basename(local_path)
-            remote_url = f"{GITHUB_BASE_URL}/{filename}"
-            f.write(f'#EXTINF:-1 tvg-id="1" tvg-logo="{LOGO_URL}" group-title="Highlights", {title}\n')
-            f.write(f"{remote_url}\n")
-    print(f"\n🎵 Playlist creata: {m3u8_path}")
+        for i, (title, url) in enumerate(entries, start=1):
+            readable_title = clean_title(title)
+            tvg_id = f"simud{i}"
+            f.write(
+                f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{readable_title}" '
+                f'tvg-logo="{LOGO_URL}" group-title="Highlights", {readable_title}\n'
+            )
+            f.write(f"{url}\n")
+
+    print(f"\n🎵 Playlist M3U8 creata con {len(entries)} voci:")
+    print(f"📁 {M3U8_PATH}\n")
 
 
 def main():
-    print("🔍 Ricerca Highlights su Sky Sport...")
-    check_yt_dlp_version()
-
-    videos = get_recent_videos()
+    print("\n🏁 Inizio estrazione HLS da Sky Sport (YouTube)\n")
+    videos = get_videos()
     if not videos:
         print("❌ Nessun video trovato.")
         sys.exit(1)
 
-    highlights = [(t, u) for (t, u) in videos if is_highlights(t)]
-    print(f"Trovati {len(highlights)} video con 'Highlights' nel titolo.\n")
+    filtered = [
+        (title, url)
+        for title, url in videos
+        if "highlight" in title.lower()
+        and any(team.lower() in title.lower() for team in TEAMS)
+    ]
 
-    downloaded = []
-    for title, url in highlights:
-        print(f"⬇️  Download: {title}")
-        path = download_video(title, url, HIGHLIGHTS_DIR)
-        if path:
-            downloaded.append((title, path))
+    print(f"🎯 Trovati {len(filtered)} video validi.\n")
 
-    if not downloaded:
-        print("⚠️ Nessun video scaricato.")
-        sys.exit(0)
+    hls_streams = []
+    for title, url in filtered:
+        print(f"▶️  Estrazione HLS: {title}")
+        hls = get_hls_url(url)
+        if hls:
+            print("   🌐 OK:", hls.split("?")[0])
+            hls_streams.append((title, hls))
+        else:
+            print("   ⚠️ Nessun HLS trovato per:", title)
 
-    write_m3u8(downloaded, M3U8_PATH)
-
-    print("\n✅ Operazione completata!")
-    print(f"📂 Cartella: {HIGHLIGHTS_DIR.resolve()}")
-    print(f"📄 Playlist: {M3U8_PATH}")
+    if hls_streams:
+        create_m3u8(hls_streams)
+        print("✅ Completato con successo!")
+    else:
+        print("⚠️ Nessun flusso HLS disponibile.")
 
 
 if __name__ == "__main__":
