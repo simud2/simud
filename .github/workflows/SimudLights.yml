@@ -38,7 +38,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add Highlights/*.mp4 SimudLights.m3u8
+          git add Highlights/SimudLights.m3u8
           git commit -m "Aggiornato High con nuovi flussi" || echo "Nessun cambiamento da committare"
           git push
         continue-on-error: true
