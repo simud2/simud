@@ -15,9 +15,9 @@ twitch_profiles = [
     "https://www.twitch.tv/grenbaud",
     "https://www.twitch.tv/zedef",
     "https://www.twitch.tv/controcalcio__",
-    "https://www.twitch.tv/sergio_cp7",
+    "https://www.twitch.tv/bo2tvofficial",
     "https://www.twitch.tv/mirkociscotv",
-    "https://www.twitch.tv/pirlasv__"
+    "https://www.twitch.tv/moonryde"
 ]
 
 # Percorso del file M3U8 (root del repository)
