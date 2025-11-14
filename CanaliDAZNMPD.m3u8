@@ -33,3 +33,55 @@ https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport1)/manifest.mp
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://amstaff.city/&Origin=https://amstaff.city&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_headers=Referer=https://amstaff.city/&Origin=https://amstaff.city&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
 https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(eurosport2)/manifest.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1r6ahn9f5wmnp1wl3g3bu9mzyl_image-header_pIt_1712069226000" group-title="Dazn MPD",RedBull TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=aca8efce26b9f4c35a1320cdff8361ee:08a03b252dc186cd7d71e5bbca4bd209
+https://otte-tim.live.pv-cdn.net/lhr-nitro/live/clients/dash-sd/enc/brsbyb2zjo/out/v1/3df7669c25534667b081a1cd5b7e7356/cenc-sd.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=a9muho2q6vod1hv0y84x2sihe_image-header_pDach_1661948923000" group-title="Dazn MPD",NBA TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=84077d18bcf234a42de3745be106a87f:aee3069c062ec8ee6bfdd32985f287ef
+https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/2jbycgm3g3/out/v1/066dd9325648468c9ecdc8b272370931/cenc.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=jyy9jw5qg2fo1t2oucwjqzi6r_image-header_pDach_1723628836000&quality=70" group-title="Dazn MPD",Dazn Fast+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-504/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1e8qv74kj9ru71k69jmgy26gow_image-header_pRow_1712318674000" group-title="Dazn MPD",Dazn Combat
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-502/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1xx7lone8fvv21a2rpc5cji3jx_image-header_pDach_1723628749000" group-title="Dazn MPD",Dazn Rise
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-501/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://eu1-prod-images.disco-api.com/2022/01/19/2ecaea38-15ee-4013-ba6a-41692d8ce74a.png?bf=0&f=png&p=true&q=60&w=360" group-title="Dazn MPD",Pga Tour
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-505/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://images.fubo.tv/station_logos/ACL-Cornhole-TV_m.png" group-title="Dazn MPD",ACL Cornhole TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-508/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1ms2u3geodbme129ecm1secxey_image-header_pIt_1726567537000" group-title="Dazn MPD",PowerSports World
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-507/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://media.licdn.com/dms/image/v2/C5612AQFLi2b-Q2vSDg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1646845022462?e=2147483647&v=beta&t=flKj_n5ed7iffGFlzgREHeWiE8Er2kf4N-O2Olp-HBY" group-title="Dazn MPD",Boxing Tv
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-509/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=14nwrbbzocc1e1iojv2evkizoo_image-header_pIt_1727875979000" group-title="Dazn MPD",PLL Network
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-510/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=mw019sf1bwuq1ndz0qhwas8in_image-header_pRow_1715780206000&quality=70" group-title="Dazn MPD",Billiard Tv
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-511/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://www.matchroomboxing.com/app/uploads/2022/01/222.jpg" group-title="Dazn MPD",MatchRoom Boxing
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-515/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=14nwrbbzocc1e1iojv2evkizoo_image-header_pIt_1727875979000" group-title="Dazn MPD",PLL Network
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-510/stream.mpd
