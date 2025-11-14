@@ -81,7 +81,25 @@ https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-511/stream.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
 https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-515/stream.mpd
-#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=14nwrbbzocc1e1iojv2evkizoo_image-header_pIt_1727875979000" group-title="Dazn MPD",PLL Network
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://motorvision.tv/wp-content/uploads/2023/09/MV_Plus_Logo_1920x1080.png" group-title="Dazn MPD",Motorvision TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
-https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-510/stream.mpd
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-518/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://www.matchroomboxing.com/app/uploads/2022/01/222.jpg" group-title="Dazn MPD",MatchRoom Darts
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-516/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=14nwrbbzocc1e1iojv2evkizoo_image-header_pIt_1727875979000" group-title="Dazn MPD",PLL Network 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://dck-ac-live.cdn.indazn.com/dash/dazn-linear-521/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://image.discovery.indazn.com/ca/v2/ca/image?id=1n7grrwb73kfo1ejx1bbb42yvx_image-header_pDach_1666621373000&quality=70" group-title="Dazn MPD",Unbeaten
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ab47741930c476780515f9a00decb0a:7ab4b9ae5a48aa526e511a913b832769
+https://amg00721-inverleigh-unbeaten-dash-dazn-6rsmt.amagi.tv/stream.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://pbs.twimg.com/profile_images/1747989339764572160/7nxm03-2_400x400.jpg" group-title="Dazn MPD",LaLiga TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a
+https://abclxdjaaaaaaaamkqb6y4p6ie2zk.ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
+#EXTINF:-1 tvg-id="dazn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3U33yaEvjO8ZCScQnHASQ7r64Ap5yyPZwVQ&s" group-title="Dazn MPD",Rally TV
+https://dms.redbull.tv/v5/destination/rallytv/07f960dc-fd36-466c-971f-64a597518b83/personal_computer/http/us/en_US/playlist.m3u8
