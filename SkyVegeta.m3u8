@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="----- ITALIA -----" tvg-logo="http://service.fullapple.me:8000/images/fbf5f839bf16f0f3c8e03b9e8bc2e5c2.png" group-title="Italia",----- ITALIA -----
+#EXTINF:-1 tvg-id="" tvg-name="----- ITALIA -----" tvg-logo="http://service.fullapple.me:8000/images/fbf5f839bf16f0f3c8e03b9e8bc2e5c2.png" group-title="Italia",----- Scadenza 16/02/26 -----
 http://athena.dyndns.biz:80/live/mgm_p2/HAY6hd98SJJNSK2/51525.ts
 #EXTINF:-1 tvg-id="Rai1.it" tvg-name="Rai 1 FHD" tvg-logo="http://service.myvisio.life:80/images/b0879796d27e736de474a4bac4cd5cfe.png" group-title="Italia",Rai 1 FHD
 http://athena.dyndns.biz:80/live/mgm_p2/HAY6hd98SJJNSK2/63460.ts
