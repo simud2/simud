@@ -5,8 +5,8 @@ Skymud                    (Wiseplay)                              https://bit.ly
 SkyVegeta                 (Ott/Wiseplay/Non Funzionante)          https://bit.ly/simudvegeta
 DAZN Eventi               (Ott)                                   https://bit.ly/daznmpd
 Sky Sport MPD             (Ott)                                   https://bit.ly/sportmpd
-Sky Cinema MPD            (Prossimamente)                         https://bit.ly/cinemampd
-Sky intrattenimento MPD   (Prossimamente)                         https://bit.ly/intrampd
+Sky Cinema MPD            (Ott)                                   https://bit.ly/cinemampd
+Sky intrattenimento MPD   (Ott)                                   https://bit.ly/intrampd
 Sky MPD                   (Ott/Non Funzionante)                   https://bit.ly/mpdsky
 Ava Iptv                  (Ott/Wiseplay/Non Funzionante)          https://bit.ly/simudiptv
 SimudHighlights           (Ott/Wiseplay)                          https://bit.ly/simudlights
