@@ -2,84 +2,46 @@
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Uno
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111510584262913847ddcce74d224b1e:7586138d1db9eba6d01fdc3d38daec9e
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202840_s~54b2215c-00d0-4b9b-bc0c-249c374c4917_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~52_x~268730805a9fa3de4bff780a0fb9ad73c65f99e5ff6c0307a42bb637940246fe/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyuno)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763289036_f~0_g~1_s~6ae146d9-4e8a-41dc-922e-aeb62976c20a_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~52_x~d998e6d65cf3c9e1374c5b16ba25a72b/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyuno)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Atlantic
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115f02862576b34b467ad4c54a09cfc:bac42e800a5c437b606e2af5b291c607
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202854_s~f620fed3-4c62-449c-84c0-ae1ea9bba120_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~57_x~2acdc2796cfab3ac444a19f7686cad8b4ffadfab501e453e35cb2482c3ab0303/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyatlantic)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763289048_f~0_g~1_s~ec9fc2a5-5887-428f-892c-539ca1e640a2_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~57_x~f05a3779af33fa7d3754d821adb7b22a/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyatlantic)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Serie
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115bf01aeadce32fcec6a220375a3fa:9df360a2a22411897cd8b1bc48c0afc0
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202866_s~e81cb49f-2501-4903-8830-6c9e7261842b_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~54_x~2f9c552c7d7256a3dc717caf9a33a9b1866ac147d8e59ffe62e3fe656651d501/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyserie)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763289058_f~0_g~1_s~58513a37-35f2-44a0-a640-a9a2b3aff57d_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~54_x~6915959fb52894628867544aaaeb5054/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyserie)/master_2hr-aac.mpd
+
+#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Collection
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11152403bc2c32ddbe6dbc5fde6db59c:ffe663ec70e40016ddad1b74c130e56b
+https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763289068_f~0_g~1_s~71fc1a83-85fa-427a-b640-5fbbffd16b49_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~59_x~17a3ae842b6b0697c63cf32e86dd0f14/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycollection)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Adventure
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11158035ffbf17eebd02027e96383161:7e1ea10428e8c5cdfdac6c55b23018d2
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763202895_f~0_g~1_s~79e36d05-a60d-4196-a3c6-a9653aedae1c_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~58_x~02bd4e69b598fbec2677154d24af9cd1/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyadventure)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763289082_f~0_g~1_s~6f94de49-abf0-49d7-8eb1-3c2d1ce1c010_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~58_x~02499c7c3ee6814592c0cfd1c6697e69/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyadventure)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Nature
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111553a2ff74eff230c8bb72efc0504c:80ec2c7f64b97098f4f65a15d828ce6a
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202905_s~0053a550-91f2-4d95-b99b-323cfd86f9d5_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~55_x~157311f9389cd0378b36519d765732c72968413eddd48974b5a3aa4cc6ce769d/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skynature)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763289097_f~0_g~1_s~400fa979-944d-40e4-a611-9fbc1fc55059_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~55_x~1e9665865ac95fe45beae3d3374ba65d/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skynature)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Documentaries
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111556afa3ac362bbf6d6237a0096793:b80627550521e85d0997e3447245f7ff
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763202918_f~0_g~1_s~ddc12ef1-9b22-4bf7-a512-9ab48ab30021_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~62_x~63b73d527a126942517907118d5c32a5/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skydocumentaries)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763289109_f~0_g~1_s~282bf6ed-34df-486e-8f71-aa9aa3195e2c_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~62_x~2de3808271e5488a4b3eeeb70169cc73/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skydocumentaries)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Investigation
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11153dd8de63f9748252104afd6b7405:255e0c5bb81bde9602d8746080496e04
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202931_s~e213e2bc-6f3b-46e5-8713-c6eb3714da3c_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~62_x~05b1c5f88c3a04c1f782bd3eb9cadcb829a89a477fcdb8e0b4bdab4c9c194fa3/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyinvestigation)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763289120_f~0_g~1_s~23ae2d88-0bd1-4490-a832-fe6f4d6c8c5b_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~62_x~9806b46aed1a657a7ce9607c1b5b3f8f/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skyinvestigation)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Crime
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115aa47cfa18cf73cb6f936cff1f8ee:a27e7383d481596cc34334336d3e7219
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202945_s~b9aec513-3a1f-42b0-8d33-f18144a978bf_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~54_x~91d12d411dbed6f02d1fc0d4490d7199401adb345801d4a82153827fa1beddfc/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycrime)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763289130_f~0_g~1_s~ddd1e28c-6069-45ba-bc8b-3d86806c4604_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~54_x~5747b7144f96f049d31f9872713d456a/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycrime)/master_2hr-aac.mpd
 
-#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Historychannel
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11158db9a2522642c8da56416d94c6a3:edb6a56266dde53f013d170d46b0b265
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202955_s~4d4ab7dc-75bf-43df-9bd5-ade9447d3410_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~60_x~acce83ea8d63f5bcb5e6f94389f84071effa25462ace5d37b1a75db2f9dae28a/nowitlin1/Content/CMAF_CTR_S1/Live/channel(historychannel)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Tg24
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115df8d6727807787e98c0ceae1ee6c:f4b9e52e3f31f1fa41850de4799ca4e3
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202820_s~89e528f3-efe2-4a5d-a533-b79a81209a59_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~50_x~26591325446112bb73e63fe000146c5025a17d8d8205ddccad3c42a806189d0e/nowitlin1/Content/CMAF_CTR_S1/Live/channel(tg24)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Comedycentral
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11155778dc9b7dde1e396a9110f09208:c030cf978cbdc4a4c84fc68ab467942b
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202969_s~49743319-d0f1-488c-ade4-e3c381cdcb3f_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~59_x~9c374f12b92d995475540daac9d545a134f70cc4055f908bfa9a0d6b0178cc34/nowitlin1/Content/CMAF_CTR_S1/Live/channel(comedycentral)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Mtv
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111559b5e50a4be12901e456034285a3:2fedd4c9c3be1b7f90e86c7bc44131f8
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202982_s~cb339ba5-0f58-4b89-b3cb-f5aae6297cae_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~49_x~7ffd0cd5313a47ae22487bb51b01d6bba160a2834363e0588dd03cfb1376152d/nowitlin1/Content/CMAF_CTR_S1/Live/channel(mtv)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Cartoonnetwork
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115769416f3dc252a105e9b6baa84e7:44b1356b9d609448b8c102b09bcc4cca
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202402_s~5f09a261-7b9a-40fe-88da-c169259fb5fe_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~60_x~3eb83470aec89a73bd5fbf1bd38526963ea901048762c29cbf0eb496fe857ed0/nowitlin1/Content/CMAF_CTR_S1/Live/channel(cartoonnetwork)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Nickjunior
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=11159c03b1b81a3705641f78ffdedd78:04fb2484b421c35aac9b2d5cea1c5cb9
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763202457_f~0_g~1_s~b2a96e65-fb59-49c1-8884-7b833621191b_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~56_x~2fac31aec087e8bf872a3e0844c6c636/nowitlin1/Content/CMAF_CTR_S1/Live/channel(nickjunior)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Boomerang
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115cc41a0daf57a22c1c81bd139b559:31347f9bbc90713e972249b54ec882b2
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202467_s~4d6e1d65-634c-4100-9699-9d930d9366e5_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~55_x~4795a595fe1035026be575ea7d3083288429d8955cf8592d0e887c05eb62a307/nowitlin1/Content/CMAF_CTR_S1/Live/channel(boomerang)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Deakids
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1115a64e55228a124aea1f0f275cbb72:efb0d6327dc8566604f401aef73b54e7
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202436_s~9f2a810b-fdf0-49f5-9f7d-2deb184ebb2f_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~53_x~18daaac8e556d265182ade45d6d22b99898f8800f2a283ff8a1b444d762e9b7e/nowitlin1/Content/CMAF_CTR_S1/Live/channel(deakids)/master_2hr-aac.mpd
-
-#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Nickelodeon
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=111502ab6d88754727d58f0952977a83:536d42da4788324e7c7aaf72ceb061c2
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202425_s~0ef580a2-54fe-49bf-b007-aeb1ad14a35c_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~57_x~d90688e2b27d80ca7b198b13b3b9c0b984a742a579a535259fff7eec1d7ca7d4/nowitlin1/Content/CMAF_CTR_S1/Live/channel(nickelodeon)/master_2hr-aac.mpd
+#EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2
