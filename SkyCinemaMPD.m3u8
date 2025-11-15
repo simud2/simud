@@ -2,44 +2,44 @@
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Cinema Action
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11150443883da4df27e25110d10fca31:83b6390471a083e00f8f3aff2a271be9
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202506_s~3b916444-d349-45d2-a189-51a9d41f95de_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~61_x~f1103088584415dd2b422e9ae68113d30f15598fd58d20297bb4694c9f7aef28/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemaaction)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763288884_f~0_g~1_s~bac2e148-206d-4d4a-889c-133a73170ab5_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~61_x~0e6418c85c9831e729b79e98a4218e30/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemaaction)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Cinema Uno
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=111571675d8183ed169725564cded6d9:e077dedf383c8aed73d38567a8e6a046
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202483_s~3a0dec67-b448-4087-8ba0-1efb109578e1_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~58_x~515f73e0925d03729b0a2e2619b10775f36b3f28609c82accff230ddd78ac0e2/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemauno)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763288869_f~0_g~1_s~214c2446-da05-450f-b2ed-47063de7c14a_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~58_x~1257af9af55fd19b055996f32c2b2f1a/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemauno)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Cinema Due
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11152c4ea1a3bffdd277ce333e54631a:17f0c028800dbcb294b9aebbae1f7e0c
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202519_s~a32ea021-93ed-46bf-be4e-7e253bf823f1_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~58_x~931dd8f0f6811b4365487fd8ba876554ad2351c44e7aa7b2bff8571e81614d31/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemadue)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763288896_f~0_g~1_s~f9e55117-47e0-47e0-b3fd-5ea7cfe7bf65_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~58_x~874a1c1b2231b9912b1992d2bb8bd530/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemadue)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Cinema Collection
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11155d8a1fe0b211137c206354e16d2a:7f07d0ef693893a84162d51c1c7259f3
-https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763202547_f~0_g~1_s~9c9751bc-257f-4d8d-9738-1f21ed382bde_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~65_x~fe4d4e902a4238058ae6cff987ac328f/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemacollection)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763288909_f~0_g~1_s~e17a1469-34e3-4a8d-8038-3587aa1a5183_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~65_x~872d2d71a2a9660656c6d3a68d20cb00/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemacollection)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Cinema Family
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115074065832f74af7e279e1203adce:20ece4131fbec82ac7ff056838512143
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202566_s~c64436dd-a628-4607-bd7d-a8ba73cb51a3_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~61_x~cfc834d832d5c4089f71798e5d54ac4f2dc5b3dc8c40fed88f5b71b10e548b0e/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemafamily)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763288947_f~0_g~1_s~1a6b0f50-bfac-4ecd-b581-83e5c659b794_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~61_x~9d6ff1ec59e6a2b5808d6c17445bd732/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemafamily)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Cinema Suspense
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115d04562a1c328a84b2dab41244cba:5cf8c65d4177349308d7043384880659
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202608_s~e547fcb4-dc7d-49ae-aada-cc03ffc38af4_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~63_x~f18ebb9ba7d9b7df79f6a35f999bf55f37a78e6d3f049d9ace22c1e132e7a607/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemasuspense)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763288989_f~0_g~1_s~bffa2b9f-fb0a-4361-9c85-06b1e25490cb_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~63_x~d71423e0bfcf7606c4a32f8d3617b925/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemasuspense)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Cinema Romance
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115dbeea57d2fadedc278956bcbfb02:3eee23f97ae49a81c03356599a614fca
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202596_s~5d7e7708-56c0-4106-ad19-f0e1b765e904_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~62_x~9a2d163ed65a0d113623e5a22dff9278d692538a2e0187ba65f18b24e2f14d02/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemaromance)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763288976_f~0_g~1_s~688e410d-ef01-4dfa-a4e1-f58facb31664_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~62_x~594cf7472ffa5b4b8bde0981c71e6fea/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemaromance)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Cinema Drama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11155ad807b90b9570fb8cce067f6166:74c4430ed8142190e52d4b303286696f
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202581_s~cda1f391-e0b3-4505-a3f4-bdd886534e98_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~60_x~3e70b34e14f75fa99c806c7252af9f2e48b9287bcb7a0fb505b149919b144b28/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemadrama)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1763288959_f~0_g~1_s~100fa3ed-5f86-41c4-92ee-bd8189718123_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~60_x~94afe4fe939a0204ebf8f98fb2f6e541/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemadrama)/master_2hr-aac.mpd
 
 #EXTINF:-1 tvg-id="sky" tvg-logo="https://upload.wikimedia.org/wikipedia/it/a/a2/Sky_TV_Logo.png" group-title="Sky",Sky Cinema Comedy
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1115676eca79233f2919b53f1a1709b8:72298a31b1b015b52adc03ab222494c2
-https://g003-lin-it-cmaf-prd-ak.pcdn07.cssott02.com/v~a-0-0_e~1763202534_s~b544b1e7-75cb-4759-90ca-c090e4ce34ea_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_l~61_x~3fe9dc4e5c80783d9eb47f08cfa9c135f54f37eec62af0fbdcb7739815692bca/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemacomedy)/master_2hr-aac.mpd
+https://g003-lin-it-cmaf-prd-cf.pcdn07.cssott02.com/v~1-0-0_e~1763288929_f~0_g~1_s~97d57021-21d5-4881-8fd2-64cc4dd43f01_u~100af3b5e3f81038226646fea0dd3302e7fd53367bd126adb1cca34b8fb7c34c_k~A_l~61_x~63fc77ef5c3d05c87c7c94bdc8207ccb/nowitlin1/Content/CMAF_CTR_S1/Live/channel(skycinemacomedy)/master_2hr-aac.mpd
